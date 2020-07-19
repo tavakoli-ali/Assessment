@@ -1,0 +1,216 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CharachterViewModel"
+- "=="
+provides-nominal:
+- "10Assessment19CharachterViewModelV"
+provides-member:
+- ["10Assessment19CharachterViewModelV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "CharachterDBModel"
+- "CharachterViewModel"
+- "Equatable"
+- "Int"
+- "String"
+- "URL"
+- !private "print"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "emptyIfNil"]
+- !private ["SK", "emptyIfNil"]
+- !private ["Sz", "emptyIfNil"]
+- !private ["s7CVarArgP", "emptyIfNil"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "imageUrl"]
+- !private ["s7CVarArgP", "name"]
+- !private ["10Assessment17CharachterDBModelC", "id"]
+- !private ["10Assessment17CharachterDBModelC", "imageUrl"]
+- !private ["10Assessment17CharachterDBModelC", "name"]
+- ["10Assessment19CharachterViewModelV", "=="]
+- ["10Assessment19CharachterViewModelV", "CharachterDBModel"]
+- ["10Assessment19CharachterViewModelV", "Int"]
+- ["10Assessment19CharachterViewModelV", "String"]
+- ["10Assessment19CharachterViewModelV", "URL"]
+- ["10Assessment19CharachterViewModelV", "deinit"]
+- ["10Assessment19CharachterViewModelV", "id"]
+- ["10Assessment19CharachterViewModelV", "imageUrl"]
+- ["10Assessment19CharachterViewModelV", "init"]
+- ["10Assessment19CharachterViewModelV", "name"]
+- !private ["10Assessment19CharachterViewModelV", "print"]
+- !private ["Sl", "emptyIfNil"]
+- !private ["SL", "emptyIfNil"]
+- !private ["s28CustomDebugStringConvertibleP", "emptyIfNil"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "imageUrl"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s17CustomReflectableP", "emptyIfNil"]
+- !private ["s23CustomStringConvertibleP", "emptyIfNil"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "imageUrl"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["Se", "emptyIfNil"]
+- !private ["SE", "emptyIfNil"]
+- ["SQ", "=="]
+- !private ["SQ", "Int"]
+- !private ["SQ", "String"]
+- !private ["SQ", "URL"]
+- ["SQ", ""]
+- !private ["SQ", "emptyIfNil"]
+- !private ["SQ", "id"]
+- !private ["SQ", "imageUrl"]
+- !private ["SQ", "name"]
+- !private ["SQ", "print"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "emptyIfNil"]
+- !private ["s27ExpressibleByIntegerLiteralP", "emptyIfNil"]
+- !private ["s32ExpressibleByStringInterpolationP", "emptyIfNil"]
+- !private ["s26ExpressibleByStringLiteralP", "emptyIfNil"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "emptyIfNil"]
+- !private ["s17FixedWidthIntegerP", "emptyIfNil"]
+- !private ["SH", "emptyIfNil"]
+- !private ["SH", "id"]
+- !private ["SH", "imageUrl"]
+- !private ["SH", "name"]
+- !private ["Si", "emptyIfNil"]
+- !private ["s25LosslessStringConvertibleP", "emptyIfNil"]
+- !private ["s10MirrorPathP", "emptyIfNil"]
+- !private ["So20NSFetchRequestResultP", "id"]
+- !private ["So20NSFetchRequestResultP", "imageUrl"]
+- !private ["So20NSFetchRequestResultP", "name"]
+- !private ["So15NSManagedObjectC", "id"]
+- !private ["So15NSManagedObjectC", "imageUrl"]
+- !private ["So15NSManagedObjectC", "name"]
+- !private ["So8NSObjectC", "id"]
+- !private ["So8NSObjectC", "imageUrl"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectP", "id"]
+- !private ["So8NSObjectP", "imageUrl"]
+- !private ["So8NSObjectP", "name"]
+- !private ["Sj", "emptyIfNil"]
+- !private ["7Combine16ObservableObjectP", "id"]
+- !private ["7Combine16ObservableObjectP", "imageUrl"]
+- !private ["7Combine16ObservableObjectP", "name"]
+- !private ["Sm", "emptyIfNil"]
+- !private ["10Foundation20ReferenceConvertibleP", "emptyIfNil"]
+- !private ["s10SIMDScalarP", "emptyIfNil"]
+- !private ["ST", "emptyIfNil"]
+- !private ["SZ", "emptyIfNil"]
+- !private ["s13SignedNumericP", "emptyIfNil"]
+- !private ["Sx", "emptyIfNil"]
+- !private ["SS", "emptyIfNil"]
+- !private ["Sy", "emptyIfNil"]
+- !private ["s16TextOutputStreamP", "emptyIfNil"]
+- !private ["s20TextOutputStreamableP", "emptyIfNil"]
+- !private ["10Foundation3URLV", "emptyIfNil"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "emptyIfNil"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "emptyIfNil"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "emptyIfNil"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "emptyIfNil"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "emptyIfNil"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "emptyIfNil"]
+- !private ["s19_HasContiguousBytesP", "emptyIfNil"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "emptyIfNil"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "id"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageUrl"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["s21_ObjectiveCBridgeableP", "emptyIfNil"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "10Assessment17CharachterDBModelC"
+- "10Assessment19CharachterViewModelV"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So20NSFetchRequestResultP"
+- !private "So15NSManagedObjectC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- !private "7Combine16ObservableObjectP"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Modules/Swinject.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Modules/module.modulemap"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "45ffa9f0f61359724b341aa1ea31ae33"

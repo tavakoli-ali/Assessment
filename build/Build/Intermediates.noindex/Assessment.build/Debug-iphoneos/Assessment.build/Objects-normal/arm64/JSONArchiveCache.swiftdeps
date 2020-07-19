@@ -1,0 +1,269 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JSONArchiveCache"
+provides-nominal:
+- "10Assessment16JSONArchiveCacheC"
+provides-member:
+- ["10Assessment16JSONArchiveCacheC", ""]
+provides-dynamic-lookup:
+- "fileName"
+- "filePath"
+- "retrive"
+- "save"
+depends-top-level:
+- !private "!"
+- "ArchiveCacheService"
+- !private "ArchiveError"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "Codable"
+- !private "Data"
+- !private "FileManager"
+- "JSONArchiveCache"
+- !private "JSONDecoder"
+- !private "JSONEncoder"
+- !private "NSKeyedArchiver"
+- !private "NSKeyedUnarchiver"
+- "String"
+- !private "StringLiteralType"
+- "URL"
+depends-member:
+- !private ["10Assessment19ArchiveCacheServiceP", "ArchiveError"]
+- !private ["10Assessment19ArchiveCacheServiceP", "FileManager"]
+- !private ["10Assessment19ArchiveCacheServiceP", "JSONDecoder"]
+- !private ["10Assessment19ArchiveCacheServiceP", "JSONEncoder"]
+- !private ["10Assessment19ArchiveCacheServiceP", "NSKeyedArchiver"]
+- !private ["10Assessment19ArchiveCacheServiceP", "NSKeyedUnarchiver"]
+- ["10Assessment19ArchiveCacheServiceP", ""]
+- ["10Assessment19ArchiveCacheServiceP", "fileName"]
+- !private ["10Assessment19ArchiveCacheServiceP", "filePath"]
+- ["10Assessment19ArchiveCacheServiceP", "retrive"]
+- ["10Assessment19ArchiveCacheServiceP", "save"]
+- !private ["10Assessment12ArchiveErrorO", "archiveFailed"]
+- !private ["10Assessment12ArchiveErrorO", "archiveFileIssue"]
+- !private ["10Assessment12ArchiveErrorO", "archiveFileReadIssue"]
+- !private ["10Assessment12ArchiveErrorO", "deinit"]
+- !private ["Sa", "first"]
+- !private ["SK", "first"]
+- !private ["s7CVarArgP", "archiveRootObject"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "unarchiveObject"]
+- !private ["s7CVarArgP", "urls"]
+- !private ["Sl", "first"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "archiveRootObject"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "unarchiveObject"]
+- !private ["s28CustomDebugStringConvertibleP", "urls"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "archiveRootObject"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "unarchiveObject"]
+- !private ["s23CustomStringConvertibleP", "urls"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "appendingPathComponent"]
+- !private ["Se", "first"]
+- !private ["Se", "path"]
+- !private ["SE", "appendingPathComponent"]
+- !private ["SE", "first"]
+- !private ["SE", "path"]
+- !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "archiveFailed"]
+- !private ["SQ", "archiveFileIssue"]
+- !private ["SQ", "archiveFileReadIssue"]
+- !private ["SQ", "archiveRootObject"]
+- !private ["SQ", "cachesDirectory"]
+- !private ["SQ", "default"]
+- !private ["SQ", "first"]
+- !private ["SQ", "path"]
+- !private ["SQ", "unarchiveObject"]
+- !private ["SQ", "urls"]
+- !private ["SQ", "userDomainMask"]
+- !private ["s5ErrorP", "archiveFailed"]
+- !private ["s5ErrorP", "archiveFileIssue"]
+- !private ["s5ErrorP", "archiveFileReadIssue"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["So13NSFileManagerC", "default"]
+- !private ["So13NSFileManagerC", "urls"]
+- !private ["SH", "appendingPathComponent"]
+- !private ["SH", "archiveFailed"]
+- !private ["SH", "archiveFileIssue"]
+- !private ["SH", "archiveFileReadIssue"]
+- !private ["SH", "archiveRootObject"]
+- !private ["SH", "cachesDirectory"]
+- !private ["SH", "default"]
+- !private ["SH", "first"]
+- !private ["SH", "path"]
+- !private ["SH", "unarchiveObject"]
+- !private ["SH", "urls"]
+- !private ["10Assessment16JSONArchiveCacheC", "ArchiveError"]
+- ["10Assessment16JSONArchiveCacheC", "Codable"]
+- !private ["10Assessment16JSONArchiveCacheC", "Data"]
+- !private ["10Assessment16JSONArchiveCacheC", "FileManager"]
+- !private ["10Assessment16JSONArchiveCacheC", "JSONDecoder"]
+- !private ["10Assessment16JSONArchiveCacheC", "JSONEncoder"]
+- !private ["10Assessment16JSONArchiveCacheC", "NSKeyedArchiver"]
+- !private ["10Assessment16JSONArchiveCacheC", "NSKeyedUnarchiver"]
+- ["10Assessment16JSONArchiveCacheC", "String"]
+- ["10Assessment16JSONArchiveCacheC", "URL"]
+- ["10Assessment16JSONArchiveCacheC", "deinit"]
+- ["10Assessment16JSONArchiveCacheC", "fileName"]
+- !private ["10Assessment16JSONArchiveCacheC", "filePath"]
+- ["10Assessment16JSONArchiveCacheC", "init"]
+- ["10Assessment16JSONArchiveCacheC", "retrive"]
+- ["10Assessment16JSONArchiveCacheC", "save"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["So7NSCoderC", "archiveRootObject"]
+- !private ["So7NSCoderC", "unarchiveObject"]
+- !private ["So15NSKeyedArchiverC", "archiveRootObject"]
+- !private ["So17NSKeyedUnarchiverC", "unarchiveObject"]
+- !private ["So8NSObjectC", "archiveRootObject"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "unarchiveObject"]
+- !private ["So8NSObjectC", "urls"]
+- !private ["So8NSObjectP", "archiveRootObject"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "unarchiveObject"]
+- !private ["So8NSObjectP", "urls"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["Sk", "first"]
+- !private ["Sm", "first"]
+- !private ["SY", "archiveFailed"]
+- !private ["SY", "archiveFileIssue"]
+- !private ["SY", "archiveFileReadIssue"]
+- !private ["SY", "cachesDirectory"]
+- !private ["SY", "userDomainMask"]
+- !private ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["So21NSSearchPathDirectoryV", "cachesDirectory"]
+- !private ["So22NSSearchPathDomainMaskV", "userDomainMask"]
+- !private ["ST", "first"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["7Combine15TopLevelEncoderP", "encode"]
+- !private ["7Combine15TopLevelEncoderP", "init"]
+- !private ["10Foundation3URLV", "appendingPathComponent"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "path"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "archiveRootObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unarchiveObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "urls"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "archiveRootObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "unarchiveObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "urls"]
+- !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+depends-nominal:
+- "10Assessment19ArchiveCacheServiceP"
+- !private "10Assessment12ArchiveErrorO"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "So13NSFileManagerC"
+- !private "SH"
+- "10Assessment16JSONArchiveCacheC"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONEncoderC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So7NSCoderC"
+- !private "So15NSKeyedArchiverC"
+- !private "So17NSKeyedUnarchiverC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So21NSSearchPathDirectoryV"
+- !private "So22NSSearchPathDomainMaskV"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "7Combine15TopLevelEncoderP"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Modules/Swinject.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Modules/module.modulemap"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "27ae916f8defa200beff7154a145dd20"

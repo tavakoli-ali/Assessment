@@ -1,0 +1,167 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ParametersData"
+- "ParameterEncoder"
+- "ParameterEncoding"
+- "NetworkErrors"
+provides-nominal:
+- "10Assessment16ParameterEncoderP"
+- "10Assessment17ParameterEncodingO"
+- "10Assessment13NetworkErrorsO"
+provides-member:
+- ["10Assessment16ParameterEncoderP", ""]
+- ["10Assessment17ParameterEncodingO", ""]
+- ["10Assessment13NetworkErrorsO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NetworkErrors"
+- "ParameterEncoder"
+- "ParameterEncoding"
+- "ParametersData"
+- "String"
+- "StringLiteralType"
+- !private "URLParameterEncoding"
+- "URLRequest"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "_userInfo"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- ["s5ErrorP", "=="]
+- ["s5ErrorP", "RawValue"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_Default_RawValue"]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- !private ["s5ErrorP", "_findStringSwitchCase"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_rawHashValue"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- ["s5ErrorP", "init"]
+- ["s5ErrorP", "rawValue"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_rawHashValue"]
+- ["SH", "_userInfo"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- ["10Assessment13NetworkErrorsO", "=="]
+- ["10Assessment13NetworkErrorsO", "RawValue"]
+- ["10Assessment13NetworkErrorsO", "_Default_RawValue"]
+- ["10Assessment13NetworkErrorsO", "_code"]
+- ["10Assessment13NetworkErrorsO", "_domain"]
+- !private ["10Assessment13NetworkErrorsO", "_findStringSwitchCase"]
+- ["10Assessment13NetworkErrorsO", "_getEmbeddedNSError"]
+- ["10Assessment13NetworkErrorsO", "_rawHashValue"]
+- ["10Assessment13NetworkErrorsO", "_userInfo"]
+- ["10Assessment13NetworkErrorsO", "deinit"]
+- ["10Assessment13NetworkErrorsO", "encodingFailed"]
+- ["10Assessment13NetworkErrorsO", "hash"]
+- ["10Assessment13NetworkErrorsO", "hashValue"]
+- ["10Assessment13NetworkErrorsO", "init"]
+- ["10Assessment13NetworkErrorsO", "missingURL"]
+- ["10Assessment13NetworkErrorsO", "parametersNil"]
+- ["10Assessment13NetworkErrorsO", "rawValue"]
+- ["10Assessment16ParameterEncoderP", "ParametersData"]
+- ["10Assessment16ParameterEncoderP", "URLRequest"]
+- ["10Assessment16ParameterEncoderP", "encode"]
+- !private ["10Assessment16ParameterEncoderP", "init"]
+- ["10Assessment17ParameterEncodingO", "ParametersData"]
+- !private ["10Assessment17ParameterEncodingO", "URLParameterEncoding"]
+- ["10Assessment17ParameterEncodingO", "URLRequest"]
+- ["10Assessment17ParameterEncodingO", "body"]
+- ["10Assessment17ParameterEncodingO", "encode"]
+- ["10Assessment17ParameterEncodingO", "none"]
+- ["10Assessment17ParameterEncodingO", "url"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_code"]
+- ["SY", "_domain"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_getEmbeddedNSError"]
+- ["SY", "_rawHashValue"]
+- ["SY", "_userInfo"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["10Assessment20URLParameterEncodingV", "deinit"]
+- !private ["10Assessment20URLParameterEncodingV", "encode"]
+- !private ["10Assessment20URLParameterEncodingV", "init"]
+depends-nominal:
+- "SQ"
+- "s5ErrorP"
+- "SH"
+- "10Assessment13NetworkErrorsO"
+- "10Assessment16ParameterEncoderP"
+- "10Assessment17ParameterEncodingO"
+- "SY"
+- !private "10Assessment20URLParameterEncodingV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/Swinject.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/module.modulemap"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "72fc9367fa75a35851a62c3bbd58b721"

@@ -1,0 +1,134 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MarvelRequestsEndPoint"
+provides-nominal:
+- "10Assessment22MarvelRequestsEndPointO"
+provides-member:
+- ["10Assessment22MarvelRequestsEndPointO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "FloatLiteralType"
+- "HTTPHeaders"
+- "HTTPMethod"
+- "Int"
+- !private "IntegerLiteralType"
+- "MarvelRequestsEndPoint"
+- "ParameterEncoding"
+- "RequestEndPoint"
+- "String"
+- !private "StringLiteralType"
+- "URL"
+- !private "UnicodeScalarType"
+- !private "fatalError"
+depends-member:
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "init"]
+- !private ["SQ", "get"]
+- !private ["SQ", "init"]
+- !private ["10Assessment10HTTPMethodO", "get"]
+- !private ["SH", "get"]
+- !private ["SH", "init"]
+- ["10Assessment22MarvelRequestsEndPointO", "HTTPHeaders"]
+- ["10Assessment22MarvelRequestsEndPointO", "HTTPMethod"]
+- ["10Assessment22MarvelRequestsEndPointO", "Int"]
+- ["10Assessment22MarvelRequestsEndPointO", "ParameterEncoding"]
+- ["10Assessment22MarvelRequestsEndPointO", "String"]
+- ["10Assessment22MarvelRequestsEndPointO", "URL"]
+- ["10Assessment22MarvelRequestsEndPointO", "baseUrl"]
+- ["10Assessment22MarvelRequestsEndPointO", "charachterList"]
+- ["10Assessment22MarvelRequestsEndPointO", "comicList"]
+- ["10Assessment22MarvelRequestsEndPointO", "deinit"]
+- !private ["10Assessment22MarvelRequestsEndPointO", "fatalError"]
+- ["10Assessment22MarvelRequestsEndPointO", "httpHeaders"]
+- ["10Assessment22MarvelRequestsEndPointO", "httpMethod"]
+- ["10Assessment22MarvelRequestsEndPointO", "parameters"]
+- ["10Assessment22MarvelRequestsEndPointO", "path"]
+- !private ["10Assessment17ParameterEncodingO", "url"]
+- !private ["SY", "get"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Assessment15RequestEndPointP", "HTTPMethod"]
+- !private ["10Assessment15RequestEndPointP", "ParameterEncoding"]
+- !private ["10Assessment15RequestEndPointP", "URL"]
+- ["10Assessment15RequestEndPointP", ""]
+- ["10Assessment15RequestEndPointP", "baseUrl"]
+- ["10Assessment15RequestEndPointP", "charachterList"]
+- ["10Assessment15RequestEndPointP", "comicList"]
+- !private ["10Assessment15RequestEndPointP", "fatalError"]
+- ["10Assessment15RequestEndPointP", "httpHeaders"]
+- ["10Assessment15RequestEndPointP", "httpMethod"]
+- ["10Assessment15RequestEndPointP", "parameters"]
+- ["10Assessment15RequestEndPointP", "path"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "SQ"
+- !private "10Assessment10HTTPMethodO"
+- !private "SH"
+- "10Assessment22MarvelRequestsEndPointO"
+- !private "10Assessment17ParameterEncodingO"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "10Assessment15RequestEndPointP"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "10Foundation3URLV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/Swinject.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/module.modulemap"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7f352f3100fce805608a66a4f3058b0c"

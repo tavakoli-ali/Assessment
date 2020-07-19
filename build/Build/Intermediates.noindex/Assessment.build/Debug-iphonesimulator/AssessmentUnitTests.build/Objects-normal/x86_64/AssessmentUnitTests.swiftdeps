@@ -1,0 +1,679 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AssessmentUnitTests"
+provides-nominal:
+- "19AssessmentUnitTestsAAC"
+provides-member:
+- ["19AssessmentUnitTestsAAC", ""]
+provides-dynamic-lookup:
+- "setUpWithError"
+- "tearDownWithError"
+- "testDecodingChar"
+- "testDecodingComic"
+- "test_StartDownload_Performance"
+- "test_fetchCharachter_ParsesData"
+- "test_fetchComics_ParsesData"
+depends-top-level:
+- !private "!"
+- !private "=="
+- "AssessmentUnitTests"
+- !private "Bundle"
+- !private "CastingPrecedence"
+- !private "CustomUIImageView"
+- !private "Data"
+- "FloatLiteralType"
+- !private "HTTPURLResponse"
+- "IntegerLiteralType"
+- !private "JSONDecoder"
+- !private "ResponseJson"
+- !private "ResultCharachter"
+- !private "ResultComic"
+- !private "StringLiteralType"
+- !private "URL"
+- !private "URLSession"
+- !private "XCTAssertFalse"
+- !private "XCTAssertNoThrow"
+- !private "XCTAssertTrue"
+- "XCTestCase"
+- !private "print"
+depends-member:
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "subscript"]
+- !private ["19AssessmentUnitTestsAAC", "Bundle"]
+- !private ["19AssessmentUnitTestsAAC", "CustomUIImageView"]
+- !private ["19AssessmentUnitTestsAAC", "Data"]
+- !private ["19AssessmentUnitTestsAAC", "HTTPURLResponse"]
+- !private ["19AssessmentUnitTestsAAC", "JSONDecoder"]
+- !private ["19AssessmentUnitTestsAAC", "ResponseJson"]
+- !private ["19AssessmentUnitTestsAAC", "ResultCharachter"]
+- !private ["19AssessmentUnitTestsAAC", "ResultComic"]
+- !private ["19AssessmentUnitTestsAAC", "URL"]
+- !private ["19AssessmentUnitTestsAAC", "URLSession"]
+- !private ["19AssessmentUnitTestsAAC", "XCTAssertFalse"]
+- !private ["19AssessmentUnitTestsAAC", "XCTAssertNoThrow"]
+- !private ["19AssessmentUnitTestsAAC", "XCTAssertTrue"]
+- ["19AssessmentUnitTestsAAC", "deinit"]
+- !private ["19AssessmentUnitTestsAAC", "expectation"]
+- ["19AssessmentUnitTestsAAC", "init"]
+- !private ["19AssessmentUnitTestsAAC", "measure"]
+- !private ["19AssessmentUnitTestsAAC", "print"]
+- ["19AssessmentUnitTestsAAC", "setUpWithError"]
+- ["19AssessmentUnitTestsAAC", "tearDownWithError"]
+- ["19AssessmentUnitTestsAAC", "testDecodingChar"]
+- ["19AssessmentUnitTestsAAC", "testDecodingComic"]
+- ["19AssessmentUnitTestsAAC", "test_StartDownload_Performance"]
+- ["19AssessmentUnitTestsAAC", "test_fetchCharachter_ParsesData"]
+- ["19AssessmentUnitTestsAAC", "test_fetchComics_ParsesData"]
+- !private ["19AssessmentUnitTestsAAC", "wait"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "subscript"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "path"]
+- !private ["So15CALayerDelegateP", "downloadedFrom"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "CustomUIImageView"]
+- !private ["s7CVarArgP", "Data"]
+- !private ["s7CVarArgP", "JSONDecoder"]
+- !private ["s7CVarArgP", "ResponseJson"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "URLSession"]
+- !private ["s7CVarArgP", "XCTAssertFalse"]
+- !private ["s7CVarArgP", "XCTAssertNoThrow"]
+- !private ["s7CVarArgP", "XCTAssertTrue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "downloadedFrom"]
+- !private ["s7CVarArgP", "expectation"]
+- !private ["s7CVarArgP", "fulfill"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "measure"]
+- !private ["s7CVarArgP", "path"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "wait"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "isEmpty"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "CustomUIImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "ResponseJson"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "URLSession"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertFalse"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertNoThrow"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertTrue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadedFrom"]
+- !private ["s28CustomDebugStringConvertibleP", "expectation"]
+- !private ["s28CustomDebugStringConvertibleP", "fulfill"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "measure"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "CustomUIImageView"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "JSONDecoder"]
+- !private ["s23CustomStringConvertibleP", "ResponseJson"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "URLSession"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertFalse"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertNoThrow"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertTrue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "downloadedFrom"]
+- !private ["s23CustomStringConvertibleP", "expectation"]
+- !private ["s23CustomStringConvertibleP", "fulfill"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "measure"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- !private ["10Assessment17CustomUIImageViewC", "downloadedFrom"]
+- !private ["10Assessment17CustomUIImageViewC", "init"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Assessment9DataClassC", "results"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "isEmpty"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "data"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "name"]
+- !private ["Se", "results"]
+- !private ["Se", "subscript"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "name"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "CustomUIImageView"]
+- !private ["SQ", "Data"]
+- !private ["SQ", "JSONDecoder"]
+- !private ["SQ", "ResponseJson"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "URLSession"]
+- !private ["SQ", "XCTAssertFalse"]
+- !private ["SQ", "XCTAssertNoThrow"]
+- !private ["SQ", "XCTAssertTrue"]
+- ["SQ", ""]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "downloadedFrom"]
+- !private ["SQ", "expectation"]
+- !private ["SQ", "fulfill"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "main"]
+- !private ["SQ", "mappedIfSafe"]
+- !private ["SQ", "measure"]
+- !private ["SQ", "path"]
+- !private ["SQ", "print"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "statusCode"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "wait"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "mappedIfSafe"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "CustomUIImageView"]
+- !private ["SH", "Data"]
+- !private ["SH", "JSONDecoder"]
+- !private ["SH", "ResponseJson"]
+- !private ["SH", "URL"]
+- !private ["SH", "URLSession"]
+- !private ["SH", "XCTAssertFalse"]
+- !private ["SH", "XCTAssertNoThrow"]
+- !private ["SH", "XCTAssertTrue"]
+- ["SH", ""]
+- !private ["SH", "dataTask"]
+- !private ["SH", "downloadedFrom"]
+- !private ["SH", "expectation"]
+- !private ["SH", "fulfill"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "main"]
+- !private ["SH", "measure"]
+- !private ["SH", "path"]
+- !private ["SH", "print"]
+- !private ["SH", "resume"]
+- !private ["SH", "shared"]
+- !private ["SH", "statusCode"]
+- !private ["SH", "subscript"]
+- !private ["SH", "wait"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "isEmpty"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "downloadedFrom"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "CustomUIImageView"]
+- !private ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "HTTPURLResponse"]
+- !private ["So8NSObjectC", "JSONDecoder"]
+- !private ["So8NSObjectC", "ResponseJson"]
+- !private ["So8NSObjectC", "ResultCharachter"]
+- !private ["So8NSObjectC", "ResultComic"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "URLSession"]
+- !private ["So8NSObjectC", "XCTAssertFalse"]
+- !private ["So8NSObjectC", "XCTAssertNoThrow"]
+- !private ["So8NSObjectC", "XCTAssertTrue"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "downloadedFrom"]
+- !private ["So8NSObjectC", "expectation"]
+- !private ["So8NSObjectC", "fulfill"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "measure"]
+- !private ["So8NSObjectC", "path"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "resume"]
+- ["So8NSObjectC", "setUpWithError"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "statusCode"]
+- ["So8NSObjectC", "tearDownWithError"]
+- ["So8NSObjectC", "testDecodingChar"]
+- ["So8NSObjectC", "testDecodingComic"]
+- ["So8NSObjectC", "test_StartDownload_Performance"]
+- ["So8NSObjectC", "test_fetchCharachter_ParsesData"]
+- ["So8NSObjectC", "test_fetchComics_ParsesData"]
+- !private ["So8NSObjectC", "wait"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "CustomUIImageView"]
+- !private ["So8NSObjectP", "Data"]
+- !private ["So8NSObjectP", "JSONDecoder"]
+- !private ["So8NSObjectP", "ResponseJson"]
+- !private ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "URLSession"]
+- !private ["So8NSObjectP", "XCTAssertFalse"]
+- !private ["So8NSObjectP", "XCTAssertNoThrow"]
+- !private ["So8NSObjectP", "XCTAssertTrue"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "downloadedFrom"]
+- !private ["So8NSObjectP", "expectation"]
+- !private ["So8NSObjectP", "fulfill"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "measure"]
+- !private ["So8NSObjectP", "path"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So8NSObjectP", "wait"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["s9OptionSetP", "mappedIfSafe"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "mappedIfSafe"]
+- !private ["So20NSDataReadingOptionsV", "mappedIfSafe"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Assessment12ResponseJsonC", "data"]
+- !private ["10Assessment16ResultCharachterC", "name"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "mappedIfSafe"]
+- !private ["SS", "isEmpty"]
+- !private ["Sy", "isEmpty"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "downloadedFrom"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "downloadedFrom"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So12UIAppearanceP", "downloadedFrom"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So21UIAppearanceContainerP", "downloadedFrom"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So17UICoordinateSpaceP", "downloadedFrom"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So13UIDynamicItemP", "downloadedFrom"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So18UIFocusEnvironmentP", "downloadedFrom"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So11UIFocusItemP", "downloadedFrom"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So20UIFocusItemContainerP", "downloadedFrom"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So11UIImageViewC", "downloadedFrom"]
+- !private ["So11UIImageViewC", "init"]
+- !private ["So24UILargeContentViewerItemP", "downloadedFrom"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "downloadedFrom"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So11UIResponderC", "downloadedFrom"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "downloadedFrom"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So18UITraitEnvironmentP", "downloadedFrom"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So23UIUserActivityRestoringP", "downloadedFrom"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So6UIViewC", "downloadedFrom"]
+- !private ["So6UIViewC", "init"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["So11XCTActivityP", "Bundle"]
+- !private ["So11XCTActivityP", "CustomUIImageView"]
+- !private ["So11XCTActivityP", "Data"]
+- !private ["So11XCTActivityP", "JSONDecoder"]
+- !private ["So11XCTActivityP", "ResponseJson"]
+- !private ["So11XCTActivityP", "URL"]
+- !private ["So11XCTActivityP", "URLSession"]
+- !private ["So11XCTActivityP", "XCTAssertFalse"]
+- !private ["So11XCTActivityP", "XCTAssertNoThrow"]
+- !private ["So11XCTActivityP", "XCTAssertTrue"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "expectation"]
+- !private ["So11XCTActivityP", "measure"]
+- !private ["So11XCTActivityP", "print"]
+- !private ["So11XCTActivityP", "wait"]
+- !private ["So17XCTWaiterDelegateP", "Bundle"]
+- !private ["So17XCTWaiterDelegateP", "CustomUIImageView"]
+- !private ["So17XCTWaiterDelegateP", "Data"]
+- !private ["So17XCTWaiterDelegateP", "JSONDecoder"]
+- !private ["So17XCTWaiterDelegateP", "ResponseJson"]
+- !private ["So17XCTWaiterDelegateP", "URL"]
+- !private ["So17XCTWaiterDelegateP", "URLSession"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertFalse"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertNoThrow"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertTrue"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "expectation"]
+- !private ["So17XCTWaiterDelegateP", "measure"]
+- !private ["So17XCTWaiterDelegateP", "print"]
+- !private ["So17XCTWaiterDelegateP", "wait"]
+- !private ["So6XCTestC", "Bundle"]
+- !private ["So6XCTestC", "CustomUIImageView"]
+- !private ["So6XCTestC", "Data"]
+- !private ["So6XCTestC", "HTTPURLResponse"]
+- !private ["So6XCTestC", "JSONDecoder"]
+- !private ["So6XCTestC", "ResponseJson"]
+- !private ["So6XCTestC", "ResultCharachter"]
+- !private ["So6XCTestC", "ResultComic"]
+- !private ["So6XCTestC", "URL"]
+- !private ["So6XCTestC", "URLSession"]
+- !private ["So6XCTestC", "XCTAssertFalse"]
+- !private ["So6XCTestC", "XCTAssertNoThrow"]
+- !private ["So6XCTestC", "XCTAssertTrue"]
+- !private ["So6XCTestC", "expectation"]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "measure"]
+- !private ["So6XCTestC", "print"]
+- ["So6XCTestC", "setUpWithError"]
+- ["So6XCTestC", "tearDownWithError"]
+- ["So6XCTestC", "testDecodingChar"]
+- ["So6XCTestC", "testDecodingComic"]
+- ["So6XCTestC", "test_StartDownload_Performance"]
+- ["So6XCTestC", "test_fetchCharachter_ParsesData"]
+- ["So6XCTestC", "test_fetchComics_ParsesData"]
+- !private ["So6XCTestC", "wait"]
+- !private ["So10XCTestCaseC", "Bundle"]
+- !private ["So10XCTestCaseC", "CustomUIImageView"]
+- !private ["So10XCTestCaseC", "Data"]
+- !private ["So10XCTestCaseC", "HTTPURLResponse"]
+- !private ["So10XCTestCaseC", "JSONDecoder"]
+- !private ["So10XCTestCaseC", "ResponseJson"]
+- !private ["So10XCTestCaseC", "ResultCharachter"]
+- !private ["So10XCTestCaseC", "ResultComic"]
+- !private ["So10XCTestCaseC", "URL"]
+- !private ["So10XCTestCaseC", "URLSession"]
+- !private ["So10XCTestCaseC", "XCTAssertFalse"]
+- !private ["So10XCTestCaseC", "XCTAssertNoThrow"]
+- !private ["So10XCTestCaseC", "XCTAssertTrue"]
+- ["So10XCTestCaseC", ""]
+- !private ["So10XCTestCaseC", "expectation"]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "measure"]
+- !private ["So10XCTestCaseC", "print"]
+- ["So10XCTestCaseC", "setUpWithError"]
+- ["So10XCTestCaseC", "tearDownWithError"]
+- ["So10XCTestCaseC", "testDecodingChar"]
+- ["So10XCTestCaseC", "testDecodingComic"]
+- ["So10XCTestCaseC", "test_StartDownload_Performance"]
+- ["So10XCTestCaseC", "test_fetchCharachter_ParsesData"]
+- ["So10XCTestCaseC", "test_fetchComics_ParsesData"]
+- !private ["So10XCTestCaseC", "wait"]
+- !private ["So17XCTestExpectationC", "fulfill"]
+- !private ["s14_ArrayProtocolP", "isEmpty"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CustomUIImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONDecoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ResponseJson"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertFalse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertNoThrow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertTrue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadedFrom"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expectation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fulfill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "measure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "path"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bundle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CustomUIImageView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONDecoder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ResponseJson"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLSession"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertFalse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertNoThrow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertTrue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "downloadedFrom"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "expectation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fulfill"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "measure"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "path"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "downloadedFrom"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+depends-nominal:
+- !private "Sa"
+- "19AssessmentUnitTestsAAC"
+- !private "SK"
+- !private "So8NSBundleC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Assessment17CustomUIImageViewC"
+- !private "10Foundation4DataV"
+- !private "10Assessment9DataClassC"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So17NSHTTPURLResponseC"
+- "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "So19NSProgressReportingP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "So20NSDataReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Assessment12ResponseJsonC"
+- !private "10Assessment16ResultCharachterC"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Combine15TopLevelDecoderP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So11UIImageViewC"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "10Foundation3URLV"
+- !private "So13NSURLResponseC"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So16NSURLSessionTaskC"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "So17XCTestExpectationC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/Swinject.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Assessment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ce81b32685697f3726e7e90de498c612"

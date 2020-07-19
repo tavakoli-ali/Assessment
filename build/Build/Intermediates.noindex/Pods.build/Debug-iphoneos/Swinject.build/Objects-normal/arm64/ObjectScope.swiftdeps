@@ -1,0 +1,90 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ObjectScopeProtocol"
+- "ObjectScope"
+provides-nominal:
+- "8Swinject19ObjectScopeProtocolP"
+- "8Swinject11ObjectScopeC"
+provides-member:
+- ["8Swinject19ObjectScopeProtocolP", ""]
+- ["8Swinject11ObjectScopeC", ""]
+provides-dynamic-lookup:
+- "description"
+- "makeStorage"
+- "parent"
+- "storageFactory"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- !private "CompositeStorage"
+- "CustomStringConvertible"
+- "InstanceStorage"
+- "ObjectScope"
+- "ObjectScopeProtocol"
+- "String"
+- "StringLiteralType"
+depends-member:
+- !private ["8Swinject16CompositeStorageC", "deinit"]
+- !private ["8Swinject16CompositeStorageC", "init"]
+- !private ["s23CustomStringConvertibleP", "CompositeStorage"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "makeStorage"]
+- !private ["s23CustomStringConvertibleP", "parent"]
+- !private ["s23CustomStringConvertibleP", "storageFactory"]
+- !private ["8Swinject15InstanceStorageP", "init"]
+- !private ["8Swinject11ObjectScopeC", "CompositeStorage"]
+- ["8Swinject11ObjectScopeC", "InstanceStorage"]
+- ["8Swinject11ObjectScopeC", "ObjectScopeProtocol"]
+- ["8Swinject11ObjectScopeC", "String"]
+- ["8Swinject11ObjectScopeC", "deinit"]
+- ["8Swinject11ObjectScopeC", "description"]
+- ["8Swinject11ObjectScopeC", "init"]
+- ["8Swinject11ObjectScopeC", "makeStorage"]
+- !private ["8Swinject11ObjectScopeC", "parent"]
+- !private ["8Swinject11ObjectScopeC", "storageFactory"]
+- !private ["8Swinject19ObjectScopeProtocolP", "CompositeStorage"]
+- ["8Swinject19ObjectScopeProtocolP", "InstanceStorage"]
+- ["8Swinject19ObjectScopeProtocolP", ""]
+- ["8Swinject19ObjectScopeProtocolP", "description"]
+- ["8Swinject19ObjectScopeProtocolP", "makeStorage"]
+- !private ["8Swinject19ObjectScopeProtocolP", "parent"]
+- !private ["8Swinject19ObjectScopeProtocolP", "storageFactory"]
+depends-nominal:
+- !private "8Swinject16CompositeStorageC"
+- "s23CustomStringConvertibleP"
+- !private "8Swinject15InstanceStorageP"
+- "8Swinject11ObjectScopeC"
+- "8Swinject19ObjectScopeProtocolP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/Pods/Target Support Files/Swinject/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/Pods/Swinject/Sources/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Swinject.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "968e58489018659049f0556e7c4ab23c"

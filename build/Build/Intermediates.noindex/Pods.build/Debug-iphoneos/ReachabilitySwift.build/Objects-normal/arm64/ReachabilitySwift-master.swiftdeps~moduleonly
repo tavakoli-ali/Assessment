@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "ef685447e58d3e96bab461c8b70c3018"
+build_time: [1590660906, 166471000]
+inputs:
+  "/Users/ali/Downloads/Xcode Project/Assessment/Pods/ReachabilitySwift/Sources/Reachability.swift": [1589712463, 559490615]

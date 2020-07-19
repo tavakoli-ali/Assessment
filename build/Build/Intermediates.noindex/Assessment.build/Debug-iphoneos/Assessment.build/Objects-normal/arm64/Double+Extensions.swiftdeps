@@ -1,0 +1,303 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["Sd", ""]
+- ["Sd", "formatter"]
+- ["Sd", "formatted"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- "AssignmentPrecedence"
+- "Double"
+- "NumberFormatter"
+- "String"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "Double"]
+- ["s18AdditiveArithmeticP", "NumberFormatter"]
+- !private ["s18AdditiveArithmeticP", "String"]
+- !private ["s18AdditiveArithmeticP", "formatter"]
+- !private ["SK", "init"]
+- !private ["SB", "Double"]
+- ["SB", "NumberFormatter"]
+- !private ["SB", "String"]
+- !private ["SB", "formatter"]
+- !private ["s7CVarArgP", "Double"]
+- ["s7CVarArgP", "NumberFormatter"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "Style"]
+- !private ["s7CVarArgP", "formatter"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "numberStyle"]
+- !private ["s7CVarArgP", "string"]
+- !private ["Sl", "init"]
+- !private ["SL", "Double"]
+- ["SL", "NumberFormatter"]
+- !private ["SL", "String"]
+- !private ["SL", "formatter"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- ["s28CustomDebugStringConvertibleP", "NumberFormatter"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "Style"]
+- !private ["s28CustomDebugStringConvertibleP", "formatter"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "numberStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s17CustomReflectableP", "Double"]
+- ["s17CustomReflectableP", "NumberFormatter"]
+- !private ["s17CustomReflectableP", "String"]
+- !private ["s17CustomReflectableP", "formatter"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- ["s23CustomStringConvertibleP", "NumberFormatter"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "Style"]
+- !private ["s23CustomStringConvertibleP", "formatter"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "numberStyle"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["Se", "Double"]
+- ["Se", "NumberFormatter"]
+- !private ["Se", "String"]
+- !private ["Se", "formatter"]
+- !private ["Se", "init"]
+- !private ["Sd", "Double"]
+- ["Sd", "NumberFormatter"]
+- ["Sd", "String"]
+- ["Sd", "formatted"]
+- ["Sd", "formatter"]
+- !private ["SE", "Double"]
+- ["SE", "NumberFormatter"]
+- !private ["SE", "String"]
+- !private ["SE", "formatter"]
+- !private ["SE", "init"]
+- !private ["SQ", "Double"]
+- ["SQ", "NumberFormatter"]
+- !private ["SQ", "String"]
+- !private ["SQ", "Style"]
+- ["SQ", "decimal"]
+- !private ["SQ", "formatter"]
+- ["SQ", "init"]
+- ["SQ", "numberStyle"]
+- !private ["SQ", "string"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "Double"]
+- ["s25ExpressibleByFloatLiteralP", "NumberFormatter"]
+- !private ["s25ExpressibleByFloatLiteralP", "String"]
+- !private ["s25ExpressibleByFloatLiteralP", "formatter"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Double"]
+- ["s27ExpressibleByIntegerLiteralP", "NumberFormatter"]
+- !private ["s27ExpressibleByIntegerLiteralP", "String"]
+- !private ["s27ExpressibleByIntegerLiteralP", "formatter"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SF", "Double"]
+- ["SF", "NumberFormatter"]
+- !private ["SF", "String"]
+- !private ["SF", "formatter"]
+- !private ["So11NSFormatterC", "Style"]
+- ["So11NSFormatterC", "init"]
+- ["So11NSFormatterC", "numberStyle"]
+- !private ["So11NSFormatterC", "string"]
+- !private ["SH", "Double"]
+- ["SH", "NumberFormatter"]
+- !private ["SH", "String"]
+- !private ["SH", "Style"]
+- ["SH", "decimal"]
+- !private ["SH", "formatter"]
+- ["SH", "init"]
+- ["SH", "numberStyle"]
+- !private ["SH", "string"]
+- !private ["s25LosslessStringConvertibleP", "Double"]
+- ["s25LosslessStringConvertibleP", "NumberFormatter"]
+- !private ["s25LosslessStringConvertibleP", "String"]
+- !private ["s25LosslessStringConvertibleP", "formatter"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "Style"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "numberStyle"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "Style"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "numberStyle"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So8NSObjectC", "Style"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "numberStyle"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectP", "Style"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "numberStyle"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So17NSNumberFormatterC", "Style"]
+- ["So17NSNumberFormatterC", "init"]
+- ["So17NSNumberFormatterC", "numberStyle"]
+- !private ["So17NSNumberFormatterC", "string"]
+- !private ["Sj", "Double"]
+- ["Sj", "NumberFormatter"]
+- !private ["Sj", "String"]
+- !private ["Sj", "formatter"]
+- !private ["Sm", "init"]
+- ["SY", "decimal"]
+- !private ["s10SIMDScalarP", "Double"]
+- ["s10SIMDScalarP", "NumberFormatter"]
+- !private ["s10SIMDScalarP", "String"]
+- !private ["s10SIMDScalarP", "formatter"]
+- !private ["ST", "init"]
+- !private ["s13SignedNumericP", "Double"]
+- ["s13SignedNumericP", "NumberFormatter"]
+- !private ["s13SignedNumericP", "String"]
+- !private ["s13SignedNumericP", "formatter"]
+- !private ["Sx", "Double"]
+- ["Sx", "NumberFormatter"]
+- !private ["Sx", "String"]
+- !private ["Sx", "formatter"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- ["So22NSNumberFormatterStyleV", "decimal"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "Double"]
+- ["s20TextOutputStreamableP", "NumberFormatter"]
+- !private ["s20TextOutputStreamableP", "String"]
+- !private ["s20TextOutputStreamableP", "formatter"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s15_CVarArgAlignedP", "Double"]
+- ["s15_CVarArgAlignedP", "NumberFormatter"]
+- !private ["s15_CVarArgAlignedP", "String"]
+- !private ["s15_CVarArgAlignedP", "formatter"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Double"]
+- ["s22_CVarArgPassedAsDoubleP", "NumberFormatter"]
+- !private ["s22_CVarArgPassedAsDoubleP", "String"]
+- !private ["s22_CVarArgPassedAsDoubleP", "formatter"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "Double"]
+- ["s30_CustomPlaygroundQuickLookableP", "NumberFormatter"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "String"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "formatter"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Double"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "NumberFormatter"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "String"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "formatter"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Double"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "NumberFormatter"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "String"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "formatter"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Double"]
+- ["s35_HasCustomAnyHashableRepresentationP", "NumberFormatter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "String"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "formatter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Style"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Style"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberStyle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "string"]
+- !private ["s21_ObjectiveCBridgeableP", "Double"]
+- ["s21_ObjectiveCBridgeableP", "NumberFormatter"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- !private ["s21_ObjectiveCBridgeableP", "formatter"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- !private "SK"
+- "SB"
+- "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "Sd"
+- "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SF"
+- "So11NSFormatterC"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So17NSNumberFormatterC"
+- "Sj"
+- !private "Sm"
+- "SY"
+- "s10SIMDScalarP"
+- !private "ST"
+- "s13SignedNumericP"
+- "Sx"
+- !private "SS"
+- !private "Sy"
+- "So22NSNumberFormatterStyleV"
+- !private "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Modules/Swinject.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Modules/module.modulemap"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "27fd7c7b202b9736d9f9eb23e09b9796"

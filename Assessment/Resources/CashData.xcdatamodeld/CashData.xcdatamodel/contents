@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CharachterDBModel" representedClassName=".CharachterDBModel" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="URI"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <relationship name="of_comic" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ComicsDBModel" inverseName="of_char" inverseEntity="ComicsDBModel"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="ComicsDBModel" representedClassName=".ComicsDBModel" syncable="YES">
+        <attribute name="charachterId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="URI"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="of_char" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="CharachterDBModel" inverseName="of_comic" inverseEntity="CharachterDBModel"/>
+        <uniquenessConstraints>
+            <uniquenessConstraint>
+                <constraint value="id"/>
+            </uniquenessConstraint>
+        </uniquenessConstraints>
+    </entity>
+    <entity name="User" representedClassName=".User" syncable="YES">
+        <attribute name="avatarUrl" optional="YES" attributeType="String"/>
+        <attribute name="role" optional="YES" attributeType="String"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="CharachterDBModel" positionX="24.8515625" positionY="86.05078125" width="128" height="103"/>
+        <element name="ComicsDBModel" positionX="-390.484375" positionY="141.98046875" width="128" height="148"/>
+        <element name="User" positionX="-235.8125" positionY="-124.5078125" width="128" height="88"/>
+    </elements>
+</model>

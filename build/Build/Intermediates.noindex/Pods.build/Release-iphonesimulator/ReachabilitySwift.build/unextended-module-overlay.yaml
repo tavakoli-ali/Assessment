@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Release-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/ReachabilitySwift.build/unextended-module.modulemap",
+    }]
+  }]
+}

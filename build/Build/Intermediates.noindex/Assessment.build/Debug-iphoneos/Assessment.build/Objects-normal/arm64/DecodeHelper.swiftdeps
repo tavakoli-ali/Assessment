@@ -1,0 +1,384 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JSONNull"
+- "JSONCodingKey"
+- "JSONAny"
+- "=="
+provides-nominal:
+- "10Assessment8JSONNullC"
+- "10Assessment13JSONCodingKeyC"
+- "10Assessment7JSONAnyC"
+provides-member:
+- ["10Assessment8JSONNullC", ""]
+- ["10Assessment13JSONCodingKeyC", ""]
+- ["10Assessment7JSONAnyC", ""]
+provides-dynamic-lookup:
+- "=="
+- "decode"
+- "decodeArray"
+- "decodeDictionary"
+- "decodingError"
+- "encode"
+- "encodingError"
+- "hash"
+- "hashValue"
+- "intValue"
+- "key"
+- "stringValue"
+- "value"
+depends-top-level:
+- !private "!"
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Codable"
+- "CodingKey"
+- "Decoder"
+- "DecodingError"
+- !private "Double"
+- "Encoder"
+- "EncodingError"
+- !private "FloatLiteralType"
+- "Hashable"
+- "Hasher"
+- "Int"
+- !private "Int64"
+- !private "IntegerLiteralType"
+- "JSONAny"
+- "JSONCodingKey"
+- "JSONNull"
+- "KeyedDecodingContainer"
+- "KeyedEncodingContainer"
+- "SingleValueDecodingContainer"
+- "SingleValueEncodingContainer"
+- "String"
+- !private "StringLiteralType"
+- "UnkeyedDecodingContainer"
+- "UnkeyedEncodingContainer"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["SK", "append"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- !private ["s9CodingKeyP", "key"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["s13DecodingErrorO7ContextV", "init"]
+- !private ["s13EncodingErrorO7ContextV", "init"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "key"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- ["Se", "=="]
+- !private ["Se", "Bool"]
+- !private ["Se", "DecodingError"]
+- !private ["Se", "Double"]
+- !private ["Se", "EncodingError"]
+- !private ["Se", "Int64"]
+- !private ["Se", "JSONAny"]
+- !private ["Se", "JSONCodingKey"]
+- !private ["Se", "JSONNull"]
+- !private ["Se", "String"]
+- ["Se", ""]
+- ["Se", "_rawHashValue"]
+- !private ["Se", "append"]
+- !private ["Se", "decode"]
+- !private ["Se", "decodeArray"]
+- !private ["Se", "decodeDictionary"]
+- !private ["Se", "decodingError"]
+- ["Se", "encode"]
+- !private ["Se", "encodingError"]
+- ["Se", "hash"]
+- ["Se", "hashValue"]
+- ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "value"]
+- !private ["s7DecoderP", "codingPath"]
+- !private ["s7DecoderP", "container"]
+- !private ["s7DecoderP", "singleValueContainer"]
+- !private ["s7DecoderP", "unkeyedContainer"]
+- !private ["s13DecodingErrorO", "Context"]
+- !private ["s13DecodingErrorO", "typeMismatch"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["SE", "=="]
+- !private ["SE", "Bool"]
+- !private ["SE", "DecodingError"]
+- !private ["SE", "Double"]
+- !private ["SE", "EncodingError"]
+- !private ["SE", "Int64"]
+- !private ["SE", "JSONAny"]
+- !private ["SE", "JSONCodingKey"]
+- !private ["SE", "JSONNull"]
+- !private ["SE", "String"]
+- ["SE", ""]
+- ["SE", "_rawHashValue"]
+- !private ["SE", "append"]
+- !private ["SE", "decode"]
+- !private ["SE", "decodeArray"]
+- !private ["SE", "decodeDictionary"]
+- !private ["SE", "decodingError"]
+- ["SE", "encode"]
+- !private ["SE", "encodingError"]
+- ["SE", "hash"]
+- ["SE", "hashValue"]
+- ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "value"]
+- !private ["s7EncoderP", "container"]
+- !private ["s7EncoderP", "singleValueContainer"]
+- !private ["s7EncoderP", "unkeyedContainer"]
+- !private ["s13EncodingErrorO", "Context"]
+- !private ["s13EncodingErrorO", "invalidValue"]
+- ["SQ", "=="]
+- !private ["SQ", "DecodingError"]
+- !private ["SQ", "JSONNull"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "append"]
+- ["SQ", "encode"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "subscript"]
+- !private ["s5ErrorP", "Context"]
+- !private ["s5ErrorP", "invalidValue"]
+- !private ["s5ErrorP", "typeMismatch"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["SH", "=="]
+- !private ["SH", "DecodingError"]
+- !private ["SH", "JSONNull"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "append"]
+- ["SH", "encode"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "subscript"]
+- !private ["10Assessment7JSONAnyC", "Bool"]
+- ["10Assessment7JSONAnyC", "CodingKey"]
+- ["10Assessment7JSONAnyC", "Decoder"]
+- ["10Assessment7JSONAnyC", "DecodingError"]
+- !private ["10Assessment7JSONAnyC", "Double"]
+- ["10Assessment7JSONAnyC", "Encoder"]
+- ["10Assessment7JSONAnyC", "EncodingError"]
+- !private ["10Assessment7JSONAnyC", "Int64"]
+- !private ["10Assessment7JSONAnyC", "JSONAny"]
+- ["10Assessment7JSONAnyC", "JSONCodingKey"]
+- !private ["10Assessment7JSONAnyC", "JSONNull"]
+- ["10Assessment7JSONAnyC", "KeyedDecodingContainer"]
+- ["10Assessment7JSONAnyC", "KeyedEncodingContainer"]
+- ["10Assessment7JSONAnyC", "SingleValueDecodingContainer"]
+- ["10Assessment7JSONAnyC", "SingleValueEncodingContainer"]
+- ["10Assessment7JSONAnyC", "String"]
+- ["10Assessment7JSONAnyC", "UnkeyedDecodingContainer"]
+- ["10Assessment7JSONAnyC", "UnkeyedEncodingContainer"]
+- ["10Assessment7JSONAnyC", "decode"]
+- ["10Assessment7JSONAnyC", "decodeArray"]
+- ["10Assessment7JSONAnyC", "decodeDictionary"]
+- ["10Assessment7JSONAnyC", "decodingError"]
+- ["10Assessment7JSONAnyC", "deinit"]
+- ["10Assessment7JSONAnyC", "encode"]
+- ["10Assessment7JSONAnyC", "encodingError"]
+- ["10Assessment7JSONAnyC", "init"]
+- ["10Assessment7JSONAnyC", "value"]
+- ["10Assessment13JSONCodingKeyC", "Int"]
+- ["10Assessment13JSONCodingKeyC", "String"]
+- ["10Assessment13JSONCodingKeyC", "debugDescription"]
+- ["10Assessment13JSONCodingKeyC", "deinit"]
+- ["10Assessment13JSONCodingKeyC", "description"]
+- ["10Assessment13JSONCodingKeyC", "init"]
+- ["10Assessment13JSONCodingKeyC", "intValue"]
+- ["10Assessment13JSONCodingKeyC", "key"]
+- ["10Assessment13JSONCodingKeyC", "stringValue"]
+- ["10Assessment8JSONNullC", "=="]
+- ["10Assessment8JSONNullC", "Bool"]
+- ["10Assessment8JSONNullC", "Decoder"]
+- !private ["10Assessment8JSONNullC", "DecodingError"]
+- ["10Assessment8JSONNullC", "Encoder"]
+- ["10Assessment8JSONNullC", "Hasher"]
+- ["10Assessment8JSONNullC", "Int"]
+- ["10Assessment8JSONNullC", "JSONNull"]
+- ["10Assessment8JSONNullC", "_rawHashValue"]
+- ["10Assessment8JSONNullC", "deinit"]
+- ["10Assessment8JSONNullC", "encode"]
+- ["10Assessment8JSONNullC", "hash"]
+- ["10Assessment8JSONNullC", "hashValue"]
+- ["10Assessment8JSONNullC", "init"]
+- !private ["s22KeyedDecodingContainerV", "allKeys"]
+- !private ["s22KeyedDecodingContainerV", "codingPath"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeNil"]
+- !private ["s22KeyedDecodingContainerV", "nestedContainer"]
+- !private ["s22KeyedDecodingContainerV", "nestedUnkeyedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "allKeys"]
+- !private ["s30KeyedDecodingContainerProtocolP", "codingPath"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeNil"]
+- !private ["s30KeyedDecodingContainerProtocolP", "nestedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "nestedUnkeyedContainer"]
+- !private ["s22KeyedEncodingContainerV", "codingPath"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeNil"]
+- !private ["s22KeyedEncodingContainerV", "nestedContainer"]
+- !private ["s22KeyedEncodingContainerV", "nestedUnkeyedContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "codingPath"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeNil"]
+- !private ["s30KeyedEncodingContainerProtocolP", "nestedContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "nestedUnkeyedContainer"]
+- !private ["10Foundation14LocalizedErrorP", "Context"]
+- !private ["10Foundation14LocalizedErrorP", "invalidValue"]
+- !private ["10Foundation14LocalizedErrorP", "typeMismatch"]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s28SingleValueDecodingContainerP", "codingPath"]
+- !private ["s28SingleValueDecodingContainerP", "decode"]
+- !private ["s28SingleValueDecodingContainerP", "decodeNil"]
+- !private ["s28SingleValueEncodingContainerP", "codingPath"]
+- !private ["s28SingleValueEncodingContainerP", "encode"]
+- !private ["s28SingleValueEncodingContainerP", "encodeNil"]
+- !private ["s24UnkeyedDecodingContainerP", "codingPath"]
+- !private ["s24UnkeyedDecodingContainerP", "decode"]
+- !private ["s24UnkeyedDecodingContainerP", "decodeNil"]
+- !private ["s24UnkeyedDecodingContainerP", "isAtEnd"]
+- !private ["s24UnkeyedDecodingContainerP", "nestedContainer"]
+- !private ["s24UnkeyedDecodingContainerP", "nestedUnkeyedContainer"]
+- !private ["s24UnkeyedEncodingContainerP", "codingPath"]
+- !private ["s24UnkeyedEncodingContainerP", "encode"]
+- !private ["s24UnkeyedEncodingContainerP", "encodeNil"]
+- !private ["s24UnkeyedEncodingContainerP", "nestedContainer"]
+- !private ["s24UnkeyedEncodingContainerP", "nestedUnkeyedContainer"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- !private "Sl"
+- !private "s13DecodingErrorO7ContextV"
+- !private "s13EncodingErrorO7ContextV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- !private "s13DecodingErrorO"
+- !private "SD"
+- "SE"
+- !private "s7EncoderP"
+- !private "s13EncodingErrorO"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- "10Assessment7JSONAnyC"
+- "10Assessment13JSONCodingKeyC"
+- "10Assessment8JSONNullC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "10Foundation14LocalizedErrorP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s28SingleValueDecodingContainerP"
+- !private "s28SingleValueEncodingContainerP"
+- !private "s24UnkeyedDecodingContainerP"
+- !private "s24UnkeyedEncodingContainerP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Modules/Swinject.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Modules/module.modulemap"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8937e392187b0ddbeac3588f7a108b95"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "96686e0a99d9324f06f6e6534852f640"
+build_time: [1590489384, 256938000]
+inputs:
+  "/Users/ali/Downloads/Xcode Project/Assessment/AssessmentUnitTests/AssessmentUnitTests.swift": [1590485571, 760856349]

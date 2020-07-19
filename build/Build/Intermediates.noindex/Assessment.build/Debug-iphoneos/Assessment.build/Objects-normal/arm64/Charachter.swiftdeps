@@ -1,0 +1,459 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ResultCharachter"
+- "Comics"
+- "ComicsItem"
+- "Stories"
+- "StoriesItem"
+- "Thumbnail"
+- "URLElement"
+provides-nominal:
+- "10Assessment16ResultCharachterC"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment6ComicsC"
+- "10Assessment10ComicsItemC"
+- "10Assessment7StoriesC"
+- "10Assessment11StoriesItemC"
+- "10Assessment9ThumbnailC"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment10URLElementC"
+provides-member:
+- ["10Assessment16ResultCharachterC", ""]
+- ["10Assessment16ResultCharachterC10CodingKeysO", ""]
+- ["10Assessment6ComicsC", ""]
+- ["10Assessment10ComicsItemC", ""]
+- ["10Assessment7StoriesC", ""]
+- ["10Assessment11StoriesItemC", ""]
+- ["10Assessment9ThumbnailC", ""]
+- ["10Assessment9ThumbnailC10CodingKeysO", ""]
+- ["10Assessment10URLElementC", ""]
+provides-dynamic-lookup:
+- "available"
+- "collectionURI"
+- "comics"
+- "convertDBObject"
+- "encode"
+- "events"
+- "id"
+- "items"
+- "name"
+- "path"
+- "resourceURI"
+- "resultDescription"
+- "returned"
+- "series"
+- "stories"
+- "thumbnail"
+- "thumbnailExtension"
+- "type"
+- "url"
+- "urls"
+depends-top-level:
+- !private "+"
+- "=="
+- "AssignmentPrecedence"
+- "Codable"
+- "CodingKey"
+- "Comics"
+- "ComicsItem"
+- "Data"
+- "Date"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "JSONSerialization"
+- "ResultCharachter"
+- "Stories"
+- "StoriesItem"
+- "String"
+- "StringLiteralType"
+- "Thumbnail"
+- "URLElement"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["s7CVarArgP", "data"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "=="]
+- ["10Assessment9ThumbnailC10CodingKeysO", "=="]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "RawValue"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "RawValue"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "_Default_RawValue"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "_Default_RawValue"]
+- !private ["10Assessment16ResultCharachterC10CodingKeysO", "_findStringSwitchCase"]
+- !private ["10Assessment9ThumbnailC10CodingKeysO", "_findStringSwitchCase"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "_rawHashValue"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "_rawHashValue"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "comics"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "debugDescription"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "debugDescription"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "deinit"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "deinit"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "description"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "description"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "events"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "hash"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "hash"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "hashValue"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "hashValue"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "id"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "init"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "init"]
+- !private ["10Assessment16ResultCharachterC10CodingKeysO", "init"]
+- !private ["10Assessment9ThumbnailC10CodingKeysO", "init"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "intValue"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "intValue"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "name"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "path"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "rawValue"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "rawValue"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "resourceURI"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "resultDescription"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "series"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "stories"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "stringValue"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "stringValue"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "thumbnail"]
+- ["10Assessment9ThumbnailC10CodingKeysO", "thumbnailExtension"]
+- ["10Assessment16ResultCharachterC10CodingKeysO", "urls"]
+- !private ["10Assessment6ComicsC", "CodingKeys"]
+- ["10Assessment6ComicsC", "ComicsItem"]
+- ["10Assessment6ComicsC", "Int"]
+- ["10Assessment6ComicsC", "String"]
+- ["10Assessment6ComicsC", "available"]
+- ["10Assessment6ComicsC", "collectionURI"]
+- ["10Assessment6ComicsC", "deinit"]
+- ["10Assessment6ComicsC", "encode"]
+- ["10Assessment6ComicsC", "init"]
+- ["10Assessment6ComicsC", "items"]
+- ["10Assessment6ComicsC", "returned"]
+- !private ["10Assessment10ComicsItemC", "CodingKeys"]
+- ["10Assessment10ComicsItemC", "String"]
+- ["10Assessment10ComicsItemC", "deinit"]
+- ["10Assessment10ComicsItemC", "encode"]
+- ["10Assessment10ComicsItemC", "init"]
+- ["10Assessment10ComicsItemC", "name"]
+- ["10Assessment10ComicsItemC", "resourceURI"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", "CodingKey"]
+- !private ["Se", "JSONSerialization"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "available"]
+- !private ["Se", "collectionURI"]
+- !private ["Se", "comics"]
+- ["Se", "encode"]
+- !private ["Se", "events"]
+- !private ["Se", "id"]
+- ["Se", "init"]
+- !private ["Se", "items"]
+- !private ["Se", "name"]
+- !private ["Se", "path"]
+- !private ["Se", "resourceURI"]
+- !private ["Se", "resultDescription"]
+- !private ["Se", "returned"]
+- !private ["Se", "series"]
+- !private ["Se", "stories"]
+- !private ["Se", "thumbnail"]
+- !private ["Se", "thumbnailExtension"]
+- !private ["Se", "type"]
+- !private ["Se", "url"]
+- !private ["Se", "urls"]
+- !private ["s7DecoderP", "container"]
+- ["SE", "CodingKey"]
+- !private ["SE", "JSONSerialization"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "available"]
+- !private ["SE", "collectionURI"]
+- !private ["SE", "comics"]
+- ["SE", "encode"]
+- !private ["SE", "events"]
+- !private ["SE", "id"]
+- ["SE", "init"]
+- !private ["SE", "items"]
+- !private ["SE", "name"]
+- !private ["SE", "path"]
+- !private ["SE", "resourceURI"]
+- !private ["SE", "resultDescription"]
+- !private ["SE", "returned"]
+- !private ["SE", "series"]
+- !private ["SE", "stories"]
+- !private ["SE", "thumbnail"]
+- !private ["SE", "thumbnailExtension"]
+- !private ["SE", "type"]
+- !private ["SE", "url"]
+- !private ["SE", "urls"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "data"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "data"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["So19NSJSONSerializationC", "data"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectP", "data"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["10Assessment16ResultCharachterC", "CodingKey"]
+- ["10Assessment16ResultCharachterC", "CodingKeys"]
+- ["10Assessment16ResultCharachterC", "Comics"]
+- ["10Assessment16ResultCharachterC", "Data"]
+- ["10Assessment16ResultCharachterC", "Date"]
+- ["10Assessment16ResultCharachterC", "Int"]
+- !private ["10Assessment16ResultCharachterC", "JSONSerialization"]
+- ["10Assessment16ResultCharachterC", "Stories"]
+- ["10Assessment16ResultCharachterC", "String"]
+- ["10Assessment16ResultCharachterC", "Thumbnail"]
+- ["10Assessment16ResultCharachterC", "URLElement"]
+- !private ["10Assessment16ResultCharachterC", "_findStringSwitchCase"]
+- ["10Assessment16ResultCharachterC", "comics"]
+- ["10Assessment16ResultCharachterC", "convertDBObject"]
+- ["10Assessment16ResultCharachterC", "deinit"]
+- ["10Assessment16ResultCharachterC", "encode"]
+- ["10Assessment16ResultCharachterC", "events"]
+- ["10Assessment16ResultCharachterC", "id"]
+- ["10Assessment16ResultCharachterC", "init"]
+- ["10Assessment16ResultCharachterC", "name"]
+- ["10Assessment16ResultCharachterC", "resourceURI"]
+- ["10Assessment16ResultCharachterC", "resultDescription"]
+- ["10Assessment16ResultCharachterC", "series"]
+- ["10Assessment16ResultCharachterC", "stories"]
+- ["10Assessment16ResultCharachterC", "thumbnail"]
+- ["10Assessment16ResultCharachterC", "urls"]
+- !private ["10Assessment7StoriesC", "CodingKeys"]
+- ["10Assessment7StoriesC", "Int"]
+- ["10Assessment7StoriesC", "StoriesItem"]
+- ["10Assessment7StoriesC", "String"]
+- ["10Assessment7StoriesC", "available"]
+- ["10Assessment7StoriesC", "collectionURI"]
+- ["10Assessment7StoriesC", "deinit"]
+- ["10Assessment7StoriesC", "encode"]
+- ["10Assessment7StoriesC", "init"]
+- ["10Assessment7StoriesC", "items"]
+- ["10Assessment7StoriesC", "returned"]
+- !private ["10Assessment11StoriesItemC", "CodingKeys"]
+- ["10Assessment11StoriesItemC", "String"]
+- ["10Assessment11StoriesItemC", "deinit"]
+- ["10Assessment11StoriesItemC", "encode"]
+- ["10Assessment11StoriesItemC", "init"]
+- ["10Assessment11StoriesItemC", "name"]
+- ["10Assessment11StoriesItemC", "resourceURI"]
+- ["10Assessment11StoriesItemC", "type"]
+- ["10Assessment9ThumbnailC", "CodingKey"]
+- ["10Assessment9ThumbnailC", "CodingKeys"]
+- ["10Assessment9ThumbnailC", "String"]
+- !private ["10Assessment9ThumbnailC", "_findStringSwitchCase"]
+- ["10Assessment9ThumbnailC", "deinit"]
+- ["10Assessment9ThumbnailC", "encode"]
+- ["10Assessment9ThumbnailC", "init"]
+- ["10Assessment9ThumbnailC", "path"]
+- ["10Assessment9ThumbnailC", "thumbnailExtension"]
+- !private ["10Assessment10URLElementC", "CodingKeys"]
+- ["10Assessment10URLElementC", "String"]
+- ["10Assessment10URLElementC", "deinit"]
+- ["10Assessment10URLElementC", "encode"]
+- ["10Assessment10URLElementC", "init"]
+- ["10Assessment10URLElementC", "type"]
+- ["10Assessment10URLElementC", "url"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+depends-nominal:
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- !private "10Assessment16ResultCharachterC10CodingKeysO"
+- !private "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- !private "10Assessment16ResultCharachterC10CodingKeysO"
+- !private "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment9ThumbnailC10CodingKeysO"
+- "10Assessment16ResultCharachterC10CodingKeysO"
+- "10Assessment6ComicsC"
+- "10Assessment10ComicsItemC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- !private "So19NSJSONSerializationC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "SY"
+- "10Assessment16ResultCharachterC"
+- "10Assessment7StoriesC"
+- "10Assessment11StoriesItemC"
+- "10Assessment9ThumbnailC"
+- "10Assessment10URLElementC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Modules/Swinject.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Modules/module.modulemap"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "779945f079bcf5047cba9b6f976b3ea0"

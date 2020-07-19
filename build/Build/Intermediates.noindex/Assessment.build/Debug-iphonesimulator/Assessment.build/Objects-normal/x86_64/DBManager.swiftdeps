@@ -1,0 +1,540 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DBManager"
+provides-nominal:
+- "10Assessment9DBManagerC"
+provides-member:
+- ["10Assessment9DBManagerC", ""]
+provides-dynamic-lookup:
+- "coreDataStack"
+- "fetchFromStorageCharachterList"
+- "fetchFromStorageComicList"
+- "saveToDBCharachterList"
+- "saveToDBComicList"
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CharachterDBModel"
+- "ComicsDBModel"
+- "CoreDataStack"
+- "DBHandler"
+- "DBManager"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- !private "NSFetchRequest"
+- !private "NSManagedObjectContext"
+- !private "NSMergeByPropertyObjectTrumpMergePolicy"
+- "NSObject"
+- !private "NSPredicate"
+- "ResultCharachter"
+- "ResultComic"
+- !private "String"
+- "StringLiteralType"
+- !private "URL"
+- "UnicodeScalarType"
+- "Void"
+- !private "print"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["SK", "sampleIfNil"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "CharachterDBModel"]
+- !private ["s7CVarArgP", "ComicsDBModel"]
+- !private ["s7CVarArgP", "NSFetchRequest"]
+- !private ["s7CVarArgP", "NSManagedObjectContext"]
+- !private ["s7CVarArgP", "NSMergeByPropertyObjectTrumpMergePolicy"]
+- !private ["s7CVarArgP", "NSPredicate"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "coreDataStack"]
+- !private ["s7CVarArgP", "fetch"]
+- ["s7CVarArgP", "fetchFromStorageCharachterList"]
+- ["s7CVarArgP", "fetchFromStorageComicList"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "mergePolicy"]
+- !private ["s7CVarArgP", "parent"]
+- !private ["s7CVarArgP", "perform"]
+- !private ["s7CVarArgP", "predicate"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "sampleIfNil"]
+- !private ["s7CVarArgP", "save"]
+- ["s7CVarArgP", "saveToDBCharachterList"]
+- ["s7CVarArgP", "saveToDBComicList"]
+- !private ["s7CVarArgP", "subscript"]
+- ["10Assessment17CharachterDBModelC", "deinit"]
+- !private ["10Assessment17CharachterDBModelC", "init"]
+- !private ["Sl", "sampleIfNil"]
+- !private ["Sl", "subscript"]
+- ["10Assessment13ComicsDBModelC", "deinit"]
+- !private ["10Assessment13ComicsDBModelC", "init"]
+- !private ["SL", "sampleIfNil"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Assessment13CoreDataStackC", "mainContext"]
+- !private ["10Assessment13CoreDataStackC", "saveContext"]
+- !private ["s28CustomDebugStringConvertibleP", "CharachterDBModel"]
+- !private ["s28CustomDebugStringConvertibleP", "ComicsDBModel"]
+- !private ["s28CustomDebugStringConvertibleP", "NSFetchRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "NSManagedObjectContext"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMergeByPropertyObjectTrumpMergePolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "NSPredicate"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "coreDataStack"]
+- !private ["s28CustomDebugStringConvertibleP", "emptyIfNil"]
+- !private ["s28CustomDebugStringConvertibleP", "fetch"]
+- ["s28CustomDebugStringConvertibleP", "fetchFromStorageCharachterList"]
+- ["s28CustomDebugStringConvertibleP", "fetchFromStorageComicList"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "mergePolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "parent"]
+- !private ["s28CustomDebugStringConvertibleP", "perform"]
+- !private ["s28CustomDebugStringConvertibleP", "predicate"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "sampleIfNil"]
+- !private ["s28CustomDebugStringConvertibleP", "save"]
+- ["s28CustomDebugStringConvertibleP", "saveToDBCharachterList"]
+- ["s28CustomDebugStringConvertibleP", "saveToDBComicList"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "sampleIfNil"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "CharachterDBModel"]
+- !private ["s23CustomStringConvertibleP", "ComicsDBModel"]
+- !private ["s23CustomStringConvertibleP", "NSFetchRequest"]
+- !private ["s23CustomStringConvertibleP", "NSManagedObjectContext"]
+- !private ["s23CustomStringConvertibleP", "NSMergeByPropertyObjectTrumpMergePolicy"]
+- !private ["s23CustomStringConvertibleP", "NSPredicate"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "coreDataStack"]
+- !private ["s23CustomStringConvertibleP", "emptyIfNil"]
+- !private ["s23CustomStringConvertibleP", "fetch"]
+- ["s23CustomStringConvertibleP", "fetchFromStorageCharachterList"]
+- ["s23CustomStringConvertibleP", "fetchFromStorageComicList"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mergePolicy"]
+- !private ["s23CustomStringConvertibleP", "parent"]
+- !private ["s23CustomStringConvertibleP", "perform"]
+- !private ["s23CustomStringConvertibleP", "predicate"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "sampleIfNil"]
+- !private ["s23CustomStringConvertibleP", "save"]
+- ["s23CustomStringConvertibleP", "saveToDBCharachterList"]
+- ["s23CustomStringConvertibleP", "saveToDBComicList"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Assessment9DBHandlerP", "CharachterDBModel"]
+- !private ["10Assessment9DBHandlerP", "ComicsDBModel"]
+- !private ["10Assessment9DBHandlerP", "NSFetchRequest"]
+- !private ["10Assessment9DBHandlerP", "NSManagedObjectContext"]
+- !private ["10Assessment9DBHandlerP", "NSMergeByPropertyObjectTrumpMergePolicy"]
+- !private ["10Assessment9DBHandlerP", "NSPredicate"]
+- !private ["10Assessment9DBHandlerP", "String"]
+- !private ["10Assessment9DBHandlerP", "URL"]
+- ["10Assessment9DBHandlerP", ""]
+- ["10Assessment9DBHandlerP", "coreDataStack"]
+- ["10Assessment9DBHandlerP", "fetchFromStorageCharachterList"]
+- ["10Assessment9DBHandlerP", "fetchFromStorageComicList"]
+- !private ["10Assessment9DBHandlerP", "print"]
+- ["10Assessment9DBHandlerP", "saveToDBCharachterList"]
+- ["10Assessment9DBHandlerP", "saveToDBComicList"]
+- ["10Assessment9DBManagerC", "Bool"]
+- ["10Assessment9DBManagerC", "CharachterDBModel"]
+- ["10Assessment9DBManagerC", "ComicsDBModel"]
+- ["10Assessment9DBManagerC", "CoreDataStack"]
+- ["10Assessment9DBManagerC", "Int"]
+- !private ["10Assessment9DBManagerC", "NSFetchRequest"]
+- !private ["10Assessment9DBManagerC", "NSManagedObjectContext"]
+- !private ["10Assessment9DBManagerC", "NSMergeByPropertyObjectTrumpMergePolicy"]
+- !private ["10Assessment9DBManagerC", "NSPredicate"]
+- ["10Assessment9DBManagerC", "ResultCharachter"]
+- ["10Assessment9DBManagerC", "ResultComic"]
+- !private ["10Assessment9DBManagerC", "String"]
+- !private ["10Assessment9DBManagerC", "URL"]
+- ["10Assessment9DBManagerC", "Void"]
+- ["10Assessment9DBManagerC", "coreDataStack"]
+- ["10Assessment9DBManagerC", "deinit"]
+- ["10Assessment9DBManagerC", "fetchFromStorageCharachterList"]
+- ["10Assessment9DBManagerC", "fetchFromStorageComicList"]
+- ["10Assessment9DBManagerC", "init"]
+- !private ["10Assessment9DBManagerC", "print"]
+- ["10Assessment9DBManagerC", "saveToDBCharachterList"]
+- ["10Assessment9DBManagerC", "saveToDBComicList"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Assessment11DateElementC", "date"]
+- !private ["Se", "date"]
+- !private ["Se", "dates"]
+- !private ["Se", "emptyIfNil"]
+- !private ["Se", "id"]
+- !private ["Se", "init"]
+- !private ["Se", "name"]
+- !private ["Se", "path"]
+- !private ["Se", "resultDescription"]
+- !private ["Se", "sampleIfNil"]
+- !private ["Se", "subscript"]
+- !private ["Se", "thumbnail"]
+- !private ["Se", "thumbnailExtension"]
+- !private ["Se", "title"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "date"]
+- !private ["SE", "dates"]
+- !private ["SE", "emptyIfNil"]
+- !private ["SE", "id"]
+- !private ["SE", "init"]
+- !private ["SE", "name"]
+- !private ["SE", "path"]
+- !private ["SE", "resultDescription"]
+- !private ["SE", "sampleIfNil"]
+- !private ["SE", "subscript"]
+- !private ["SE", "thumbnail"]
+- !private ["SE", "thumbnailExtension"]
+- !private ["SE", "title"]
+- !private ["SQ", "CharachterDBModel"]
+- !private ["SQ", "ComicsDBModel"]
+- !private ["SQ", "NSFetchRequest"]
+- !private ["SQ", "NSManagedObjectContext"]
+- !private ["SQ", "NSMergeByPropertyObjectTrumpMergePolicy"]
+- !private ["SQ", "NSPredicate"]
+- !private ["SQ", "String"]
+- !private ["SQ", "URL"]
+- ["SQ", ""]
+- ["SQ", "coreDataStack"]
+- !private ["SQ", "emptyIfNil"]
+- !private ["SQ", "fetch"]
+- ["SQ", "fetchFromStorageCharachterList"]
+- ["SQ", "fetchFromStorageComicList"]
+- !private ["SQ", "init"]
+- !private ["SQ", "mainQueueConcurrencyType"]
+- !private ["SQ", "mergePolicy"]
+- !private ["SQ", "parent"]
+- !private ["SQ", "perform"]
+- !private ["SQ", "predicate"]
+- !private ["SQ", "print"]
+- !private ["SQ", "sampleIfNil"]
+- !private ["SQ", "save"]
+- ["SQ", "saveToDBCharachterList"]
+- ["SQ", "saveToDBComicList"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "sampleIfNil"]
+- !private ["s32ExpressibleByStringInterpolationP", "sampleIfNil"]
+- !private ["s26ExpressibleByStringLiteralP", "sampleIfNil"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "sampleIfNil"]
+- !private ["SH", "CharachterDBModel"]
+- !private ["SH", "ComicsDBModel"]
+- !private ["SH", "NSFetchRequest"]
+- !private ["SH", "NSManagedObjectContext"]
+- !private ["SH", "NSMergeByPropertyObjectTrumpMergePolicy"]
+- !private ["SH", "NSPredicate"]
+- !private ["SH", "String"]
+- !private ["SH", "URL"]
+- ["SH", ""]
+- ["SH", "coreDataStack"]
+- !private ["SH", "emptyIfNil"]
+- !private ["SH", "fetch"]
+- ["SH", "fetchFromStorageCharachterList"]
+- ["SH", "fetchFromStorageComicList"]
+- !private ["SH", "init"]
+- !private ["SH", "mainQueueConcurrencyType"]
+- !private ["SH", "mergePolicy"]
+- !private ["SH", "parent"]
+- !private ["SH", "perform"]
+- !private ["SH", "predicate"]
+- !private ["SH", "print"]
+- !private ["SH", "sampleIfNil"]
+- !private ["SH", "save"]
+- ["SH", "saveToDBCharachterList"]
+- ["SH", "saveToDBComicList"]
+- !private ["SH", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "sampleIfNil"]
+- !private ["s10MirrorPathP", "sampleIfNil"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["So8NSCodingP", "fetch"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "mergePolicy"]
+- !private ["So8NSCodingP", "parent"]
+- !private ["So8NSCodingP", "perform"]
+- !private ["So8NSCodingP", "predicate"]
+- !private ["So8NSCodingP", "save"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "predicate"]
+- !private ["So14NSFetchRequestC", "init"]
+- !private ["So14NSFetchRequestC", "predicate"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So9NSLockingP", "fetch"]
+- !private ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "mergePolicy"]
+- !private ["So9NSLockingP", "parent"]
+- !private ["So9NSLockingP", "perform"]
+- !private ["So9NSLockingP", "save"]
+- !private ["So15NSManagedObjectC", "init"]
+- !private ["So22NSManagedObjectContextC", "fetch"]
+- !private ["So22NSManagedObjectContextC", "init"]
+- !private ["So22NSManagedObjectContextC", "mergePolicy"]
+- !private ["So22NSManagedObjectContextC", "parent"]
+- !private ["So22NSManagedObjectContextC", "perform"]
+- !private ["So22NSManagedObjectContextC", "save"]
+- !private ["So37NSManagedObjectContextConcurrencyTypeV", "mainQueueConcurrencyType"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CharachterDBModel"]
+- ["So8NSObjectC", "ComicsDBModel"]
+- ["So8NSObjectC", "CoreDataStack"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSFetchRequest"]
+- !private ["So8NSObjectC", "NSManagedObjectContext"]
+- !private ["So8NSObjectC", "NSMergeByPropertyObjectTrumpMergePolicy"]
+- !private ["So8NSObjectC", "NSPredicate"]
+- ["So8NSObjectC", "ResultCharachter"]
+- ["So8NSObjectC", "ResultComic"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "coreDataStack"]
+- !private ["So8NSObjectC", "fetch"]
+- ["So8NSObjectC", "fetchFromStorageCharachterList"]
+- ["So8NSObjectC", "fetchFromStorageComicList"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "mergePolicy"]
+- !private ["So8NSObjectC", "parent"]
+- !private ["So8NSObjectC", "perform"]
+- !private ["So8NSObjectC", "predicate"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "save"]
+- ["So8NSObjectC", "saveToDBCharachterList"]
+- ["So8NSObjectC", "saveToDBComicList"]
+- !private ["So8NSObjectP", "CharachterDBModel"]
+- !private ["So8NSObjectP", "ComicsDBModel"]
+- !private ["So8NSObjectP", "NSFetchRequest"]
+- !private ["So8NSObjectP", "NSManagedObjectContext"]
+- !private ["So8NSObjectP", "NSMergeByPropertyObjectTrumpMergePolicy"]
+- !private ["So8NSObjectP", "NSPredicate"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "URL"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "coreDataStack"]
+- !private ["So8NSObjectP", "fetch"]
+- ["So8NSObjectP", "fetchFromStorageCharachterList"]
+- ["So8NSObjectP", "fetchFromStorageComicList"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "mergePolicy"]
+- !private ["So8NSObjectP", "parent"]
+- !private ["So8NSObjectP", "perform"]
+- !private ["So8NSObjectP", "predicate"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "save"]
+- ["So8NSObjectP", "saveToDBCharachterList"]
+- ["So8NSObjectP", "saveToDBComicList"]
+- !private ["So24NSPersistentStoreRequestC", "init"]
+- !private ["So24NSPersistentStoreRequestC", "predicate"]
+- !private ["So11NSPredicateC", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["7Combine16ObservableObjectP", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "sampleIfNil"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "mainQueueConcurrencyType"]
+- !private ["10Foundation20ReferenceConvertibleP", "emptyIfNil"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Assessment16ResultCharachterC", "id"]
+- !private ["10Assessment16ResultCharachterC", "name"]
+- !private ["10Assessment16ResultCharachterC", "thumbnail"]
+- !private ["10Assessment11ResultComicC", "dates"]
+- !private ["10Assessment11ResultComicC", "id"]
+- !private ["10Assessment11ResultComicC", "resultDescription"]
+- !private ["10Assessment11ResultComicC", "thumbnail"]
+- !private ["10Assessment11ResultComicC", "title"]
+- !private ["ST", "sampleIfNil"]
+- !private ["ST", "subscript"]
+- !private ["SS", "sampleIfNil"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "sampleIfNil"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "sampleIfNil"]
+- !private ["s20TextOutputStreamableP", "sampleIfNil"]
+- !private ["10Assessment9ThumbnailC", "path"]
+- !private ["10Assessment9ThumbnailC", "thumbnailExtension"]
+- !private ["10Foundation3URLV", "emptyIfNil"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "emptyIfNil"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "sampleIfNil"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "sampleIfNil"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "sampleIfNil"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "sampleIfNil"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "emptyIfNil"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "sampleIfNil"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CharachterDBModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ComicsDBModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSFetchRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSManagedObjectContext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMergeByPropertyObjectTrumpMergePolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSPredicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "coreDataStack"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fetch"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "fetchFromStorageCharachterList"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "fetchFromStorageComicList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mergePolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "parent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "perform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "predicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "save"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "saveToDBCharachterList"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "saveToDBComicList"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CharachterDBModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ComicsDBModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSFetchRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSManagedObjectContext"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSMergeByPropertyObjectTrumpMergePolicy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSPredicate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "coreDataStack"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetch"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetchFromStorageCharachterList"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetchFromStorageComicList"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mergePolicy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "parent"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "perform"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "predicate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "save"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "saveToDBCharachterList"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "saveToDBComicList"]
+- !private ["s21_ObjectiveCBridgeableP", "emptyIfNil"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "sampleIfNil"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- "10Assessment17CharachterDBModelC"
+- !private "Sl"
+- "10Assessment13ComicsDBModelC"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "10Assessment13CoreDataStackC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Assessment9DBHandlerP"
+- "10Assessment9DBManagerC"
+- !private "10Foundation12DataProtocolP"
+- !private "10Assessment11DateElementC"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So14NSFetchRequestC"
+- !private "So20NSFetchRequestResultP"
+- !private "So9NSLockingP"
+- !private "So15NSManagedObjectC"
+- !private "So22NSManagedObjectContextC"
+- !private "So37NSManagedObjectContextConcurrencyTypeV"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So24NSPersistentStoreRequestC"
+- !private "So11NSPredicateC"
+- !private "So14NSSecureCodingP"
+- !private "7Combine16ObservableObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Assessment16ResultCharachterC"
+- !private "10Assessment11ResultComicC"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Assessment9ThumbnailC"
+- !private "10Foundation3URLV"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/Swinject.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/module.modulemap"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0ce96105180a9cb281417df864ca8ee5"

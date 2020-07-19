@@ -1,0 +1,539 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ResultComic"
+- "Characters"
+- "Series"
+- "Creators"
+- "CreatorsItem"
+- "DateElement"
+- "Price"
+- "TextObject"
+provides-nominal:
+- "10Assessment11ResultComicC"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment10CharactersC"
+- "10Assessment6SeriesC"
+- "10Assessment8CreatorsC"
+- "10Assessment12CreatorsItemC"
+- "10Assessment11DateElementC"
+- "10Assessment5PriceC"
+- "10Assessment10TextObjectC"
+provides-member:
+- ["10Assessment11ResultComicC", ""]
+- ["10Assessment11ResultComicC10CodingKeysO", ""]
+- ["10Assessment10CharactersC", ""]
+- ["10Assessment6SeriesC", ""]
+- ["10Assessment8CreatorsC", ""]
+- ["10Assessment12CreatorsItemC", ""]
+- ["10Assessment11DateElementC", ""]
+- ["10Assessment5PriceC", ""]
+- ["10Assessment10TextObjectC", ""]
+provides-dynamic-lookup:
+- "available"
+- "characters"
+- "collectedIssues"
+- "collectionURI"
+- "collections"
+- "creators"
+- "date"
+- "dates"
+- "diamondCode"
+- "digitalID"
+- "ean"
+- "encode"
+- "events"
+- "format"
+- "id"
+- "images"
+- "isbn"
+- "issn"
+- "issueNumber"
+- "items"
+- "language"
+- "modified"
+- "name"
+- "pageCount"
+- "price"
+- "prices"
+- "resourceURI"
+- "resultDescription"
+- "returned"
+- "role"
+- "series"
+- "stories"
+- "text"
+- "textObjects"
+- "thumbnail"
+- "title"
+- "type"
+- "upc"
+- "urls"
+- "variantDescription"
+- "variants"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Characters"
+- "Codable"
+- "CodingKey"
+- "Creators"
+- "CreatorsItem"
+- "DateElement"
+- "Double"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "JSONAny"
+- "Price"
+- "ResultComic"
+- "Series"
+- "Stories"
+- "String"
+- "StringLiteralType"
+- "TextObject"
+- "Thumbnail"
+- "URLElement"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["10Assessment10CharactersC", "CodingKeys"]
+- ["10Assessment10CharactersC", "Int"]
+- ["10Assessment10CharactersC", "Series"]
+- ["10Assessment10CharactersC", "String"]
+- ["10Assessment10CharactersC", "available"]
+- ["10Assessment10CharactersC", "collectionURI"]
+- ["10Assessment10CharactersC", "deinit"]
+- ["10Assessment10CharactersC", "encode"]
+- ["10Assessment10CharactersC", "init"]
+- ["10Assessment10CharactersC", "items"]
+- ["10Assessment10CharactersC", "returned"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["10Assessment11ResultComicC10CodingKeysO", "=="]
+- ["10Assessment11ResultComicC10CodingKeysO", "RawValue"]
+- ["10Assessment11ResultComicC10CodingKeysO", "_Default_RawValue"]
+- !private ["10Assessment11ResultComicC10CodingKeysO", "_findStringSwitchCase"]
+- ["10Assessment11ResultComicC10CodingKeysO", "_rawHashValue"]
+- ["10Assessment11ResultComicC10CodingKeysO", "characters"]
+- ["10Assessment11ResultComicC10CodingKeysO", "collectedIssues"]
+- ["10Assessment11ResultComicC10CodingKeysO", "collections"]
+- ["10Assessment11ResultComicC10CodingKeysO", "creators"]
+- ["10Assessment11ResultComicC10CodingKeysO", "dates"]
+- ["10Assessment11ResultComicC10CodingKeysO", "debugDescription"]
+- ["10Assessment11ResultComicC10CodingKeysO", "deinit"]
+- ["10Assessment11ResultComicC10CodingKeysO", "description"]
+- ["10Assessment11ResultComicC10CodingKeysO", "diamondCode"]
+- ["10Assessment11ResultComicC10CodingKeysO", "digitalID"]
+- ["10Assessment11ResultComicC10CodingKeysO", "ean"]
+- ["10Assessment11ResultComicC10CodingKeysO", "events"]
+- ["10Assessment11ResultComicC10CodingKeysO", "format"]
+- ["10Assessment11ResultComicC10CodingKeysO", "hash"]
+- ["10Assessment11ResultComicC10CodingKeysO", "hashValue"]
+- ["10Assessment11ResultComicC10CodingKeysO", "id"]
+- ["10Assessment11ResultComicC10CodingKeysO", "images"]
+- ["10Assessment11ResultComicC10CodingKeysO", "init"]
+- !private ["10Assessment11ResultComicC10CodingKeysO", "init"]
+- ["10Assessment11ResultComicC10CodingKeysO", "intValue"]
+- ["10Assessment11ResultComicC10CodingKeysO", "isbn"]
+- ["10Assessment11ResultComicC10CodingKeysO", "issn"]
+- ["10Assessment11ResultComicC10CodingKeysO", "issueNumber"]
+- ["10Assessment11ResultComicC10CodingKeysO", "modified"]
+- ["10Assessment11ResultComicC10CodingKeysO", "pageCount"]
+- ["10Assessment11ResultComicC10CodingKeysO", "prices"]
+- ["10Assessment11ResultComicC10CodingKeysO", "rawValue"]
+- ["10Assessment11ResultComicC10CodingKeysO", "resourceURI"]
+- ["10Assessment11ResultComicC10CodingKeysO", "resultDescription"]
+- ["10Assessment11ResultComicC10CodingKeysO", "series"]
+- ["10Assessment11ResultComicC10CodingKeysO", "stories"]
+- ["10Assessment11ResultComicC10CodingKeysO", "stringValue"]
+- ["10Assessment11ResultComicC10CodingKeysO", "textObjects"]
+- ["10Assessment11ResultComicC10CodingKeysO", "thumbnail"]
+- ["10Assessment11ResultComicC10CodingKeysO", "title"]
+- ["10Assessment11ResultComicC10CodingKeysO", "upc"]
+- ["10Assessment11ResultComicC10CodingKeysO", "urls"]
+- ["10Assessment11ResultComicC10CodingKeysO", "variantDescription"]
+- ["10Assessment11ResultComicC10CodingKeysO", "variants"]
+- !private ["10Assessment8CreatorsC", "CodingKeys"]
+- ["10Assessment8CreatorsC", "CreatorsItem"]
+- ["10Assessment8CreatorsC", "Int"]
+- ["10Assessment8CreatorsC", "String"]
+- ["10Assessment8CreatorsC", "available"]
+- ["10Assessment8CreatorsC", "collectionURI"]
+- ["10Assessment8CreatorsC", "deinit"]
+- ["10Assessment8CreatorsC", "encode"]
+- ["10Assessment8CreatorsC", "init"]
+- ["10Assessment8CreatorsC", "items"]
+- ["10Assessment8CreatorsC", "returned"]
+- !private ["10Assessment12CreatorsItemC", "CodingKeys"]
+- ["10Assessment12CreatorsItemC", "String"]
+- ["10Assessment12CreatorsItemC", "deinit"]
+- ["10Assessment12CreatorsItemC", "encode"]
+- ["10Assessment12CreatorsItemC", "init"]
+- ["10Assessment12CreatorsItemC", "name"]
+- ["10Assessment12CreatorsItemC", "resourceURI"]
+- ["10Assessment12CreatorsItemC", "role"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["10Assessment11DateElementC", "CodingKeys"]
+- ["10Assessment11DateElementC", "String"]
+- ["10Assessment11DateElementC", "date"]
+- ["10Assessment11DateElementC", "deinit"]
+- ["10Assessment11DateElementC", "encode"]
+- ["10Assessment11DateElementC", "init"]
+- ["10Assessment11DateElementC", "type"]
+- ["Se", "CodingKey"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "available"]
+- !private ["Se", "characters"]
+- !private ["Se", "collectedIssues"]
+- !private ["Se", "collectionURI"]
+- !private ["Se", "collections"]
+- !private ["Se", "creators"]
+- !private ["Se", "date"]
+- !private ["Se", "dates"]
+- !private ["Se", "diamondCode"]
+- !private ["Se", "digitalID"]
+- !private ["Se", "ean"]
+- ["Se", "encode"]
+- !private ["Se", "events"]
+- !private ["Se", "format"]
+- !private ["Se", "id"]
+- !private ["Se", "images"]
+- ["Se", "init"]
+- !private ["Se", "isbn"]
+- !private ["Se", "issn"]
+- !private ["Se", "issueNumber"]
+- !private ["Se", "items"]
+- !private ["Se", "language"]
+- !private ["Se", "modified"]
+- !private ["Se", "name"]
+- !private ["Se", "pageCount"]
+- !private ["Se", "price"]
+- !private ["Se", "prices"]
+- !private ["Se", "resourceURI"]
+- !private ["Se", "resultDescription"]
+- !private ["Se", "returned"]
+- !private ["Se", "role"]
+- !private ["Se", "series"]
+- !private ["Se", "stories"]
+- !private ["Se", "text"]
+- !private ["Se", "textObjects"]
+- !private ["Se", "thumbnail"]
+- !private ["Se", "title"]
+- !private ["Se", "type"]
+- !private ["Se", "upc"]
+- !private ["Se", "urls"]
+- !private ["Se", "variantDescription"]
+- !private ["Se", "variants"]
+- !private ["s7DecoderP", "container"]
+- ["SE", "CodingKey"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "available"]
+- !private ["SE", "characters"]
+- !private ["SE", "collectedIssues"]
+- !private ["SE", "collectionURI"]
+- !private ["SE", "collections"]
+- !private ["SE", "creators"]
+- !private ["SE", "date"]
+- !private ["SE", "dates"]
+- !private ["SE", "diamondCode"]
+- !private ["SE", "digitalID"]
+- !private ["SE", "ean"]
+- ["SE", "encode"]
+- !private ["SE", "events"]
+- !private ["SE", "format"]
+- !private ["SE", "id"]
+- !private ["SE", "images"]
+- ["SE", "init"]
+- !private ["SE", "isbn"]
+- !private ["SE", "issn"]
+- !private ["SE", "issueNumber"]
+- !private ["SE", "items"]
+- !private ["SE", "language"]
+- !private ["SE", "modified"]
+- !private ["SE", "name"]
+- !private ["SE", "pageCount"]
+- !private ["SE", "price"]
+- !private ["SE", "prices"]
+- !private ["SE", "resourceURI"]
+- !private ["SE", "resultDescription"]
+- !private ["SE", "returned"]
+- !private ["SE", "role"]
+- !private ["SE", "series"]
+- !private ["SE", "stories"]
+- !private ["SE", "text"]
+- !private ["SE", "textObjects"]
+- !private ["SE", "thumbnail"]
+- !private ["SE", "title"]
+- !private ["SE", "type"]
+- !private ["SE", "upc"]
+- !private ["SE", "urls"]
+- !private ["SE", "variantDescription"]
+- !private ["SE", "variants"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- ["10Assessment7JSONAnyC", "deinit"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["10Assessment5PriceC", "CodingKeys"]
+- ["10Assessment5PriceC", "Double"]
+- ["10Assessment5PriceC", "String"]
+- ["10Assessment5PriceC", "deinit"]
+- ["10Assessment5PriceC", "encode"]
+- ["10Assessment5PriceC", "init"]
+- ["10Assessment5PriceC", "price"]
+- ["10Assessment5PriceC", "type"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["10Assessment11ResultComicC", "Characters"]
+- ["10Assessment11ResultComicC", "CodingKey"]
+- ["10Assessment11ResultComicC", "CodingKeys"]
+- ["10Assessment11ResultComicC", "Creators"]
+- ["10Assessment11ResultComicC", "DateElement"]
+- ["10Assessment11ResultComicC", "Double"]
+- ["10Assessment11ResultComicC", "Int"]
+- ["10Assessment11ResultComicC", "JSONAny"]
+- ["10Assessment11ResultComicC", "Price"]
+- ["10Assessment11ResultComicC", "Series"]
+- ["10Assessment11ResultComicC", "Stories"]
+- ["10Assessment11ResultComicC", "String"]
+- ["10Assessment11ResultComicC", "TextObject"]
+- ["10Assessment11ResultComicC", "Thumbnail"]
+- ["10Assessment11ResultComicC", "URLElement"]
+- !private ["10Assessment11ResultComicC", "_findStringSwitchCase"]
+- ["10Assessment11ResultComicC", "characters"]
+- ["10Assessment11ResultComicC", "collectedIssues"]
+- ["10Assessment11ResultComicC", "collections"]
+- ["10Assessment11ResultComicC", "creators"]
+- ["10Assessment11ResultComicC", "dates"]
+- ["10Assessment11ResultComicC", "deinit"]
+- ["10Assessment11ResultComicC", "diamondCode"]
+- ["10Assessment11ResultComicC", "digitalID"]
+- ["10Assessment11ResultComicC", "ean"]
+- ["10Assessment11ResultComicC", "encode"]
+- ["10Assessment11ResultComicC", "events"]
+- ["10Assessment11ResultComicC", "format"]
+- ["10Assessment11ResultComicC", "id"]
+- ["10Assessment11ResultComicC", "images"]
+- ["10Assessment11ResultComicC", "init"]
+- ["10Assessment11ResultComicC", "isbn"]
+- ["10Assessment11ResultComicC", "issn"]
+- ["10Assessment11ResultComicC", "issueNumber"]
+- ["10Assessment11ResultComicC", "modified"]
+- ["10Assessment11ResultComicC", "pageCount"]
+- ["10Assessment11ResultComicC", "prices"]
+- ["10Assessment11ResultComicC", "resourceURI"]
+- ["10Assessment11ResultComicC", "resultDescription"]
+- ["10Assessment11ResultComicC", "series"]
+- ["10Assessment11ResultComicC", "stories"]
+- ["10Assessment11ResultComicC", "textObjects"]
+- ["10Assessment11ResultComicC", "thumbnail"]
+- ["10Assessment11ResultComicC", "title"]
+- ["10Assessment11ResultComicC", "upc"]
+- ["10Assessment11ResultComicC", "urls"]
+- ["10Assessment11ResultComicC", "variantDescription"]
+- ["10Assessment11ResultComicC", "variants"]
+- !private ["10Assessment6SeriesC", "CodingKeys"]
+- ["10Assessment6SeriesC", "String"]
+- ["10Assessment6SeriesC", "deinit"]
+- ["10Assessment6SeriesC", "encode"]
+- ["10Assessment6SeriesC", "init"]
+- ["10Assessment6SeriesC", "name"]
+- ["10Assessment6SeriesC", "resourceURI"]
+- ["10Assessment7StoriesC", "deinit"]
+- !private ["10Assessment10TextObjectC", "CodingKeys"]
+- ["10Assessment10TextObjectC", "String"]
+- ["10Assessment10TextObjectC", "deinit"]
+- ["10Assessment10TextObjectC", "encode"]
+- ["10Assessment10TextObjectC", "init"]
+- ["10Assessment10TextObjectC", "language"]
+- ["10Assessment10TextObjectC", "text"]
+- ["10Assessment10TextObjectC", "type"]
+- ["10Assessment9ThumbnailC", "deinit"]
+- ["10Assessment10URLElementC", "deinit"]
+depends-nominal:
+- "10Assessment10CharactersC"
+- "s9CodingKeyP"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- !private "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- !private "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment11ResultComicC10CodingKeysO"
+- "10Assessment8CreatorsC"
+- "10Assessment12CreatorsItemC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "10Assessment11DateElementC"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "10Assessment7JSONAnyC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "10Assessment5PriceC"
+- "SY"
+- "10Assessment11ResultComicC"
+- "10Assessment6SeriesC"
+- "10Assessment7StoriesC"
+- "10Assessment10TextObjectC"
+- "10Assessment9ThumbnailC"
+- "10Assessment10URLElementC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/Swinject.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/module.modulemap"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a475494ea4c6d26d7920c05aa6f051ae"

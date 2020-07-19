@@ -1,0 +1,613 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ComicsDBModel"
+provides-nominal:
+- "10Assessment13ComicsDBModelC"
+- "10Assessment13ComicsDBModelC10CodingKeysO"
+provides-member:
+- ["10Assessment13ComicsDBModelC", ""]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", ""]
+- ["10Assessment13ComicsDBModelC", "fetchRequest"]
+provides-dynamic-lookup:
+- "charachterId"
+- "date"
+- "desc"
+- "encode"
+- "fetchRequest"
+- "id"
+- "imageUrl"
+- "of_char"
+- "title"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "CodingKey"
+- !private "CodingUserInfoKey"
+- "ComicsDBModel"
+- "Encoder"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "NSEntityDescription"
+- "NSFetchRequest"
+- "NSManagedObject"
+- "NSManagedObjectContext"
+- !private "NSPredicate"
+- "NSSet"
+- "String"
+- "StringLiteralType"
+- "URL"
+- !private "UnicodeScalarType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["SK", "emptyIfNil"]
+- !private ["SK", "replacingOccurrences"]
+- !private ["s7CVarArgP", "CodingKeys"]
+- !private ["s7CVarArgP", "CodingUserInfoKey"]
+- !private ["s7CVarArgP", "NSEntityDescription"]
+- !private ["s7CVarArgP", "NSFetchRequest"]
+- !private ["s7CVarArgP", "NSPredicate"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_findStringSwitchCase"]
+- !private ["s7CVarArgP", "charachterId"]
+- !private ["s7CVarArgP", "date"]
+- !private ["s7CVarArgP", "desc"]
+- !private ["s7CVarArgP", "emptyIfNil"]
+- !private ["s7CVarArgP", "entity"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "imageUrl"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "predicate"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
+- !private ["s7CVarArgP", "title"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- !private ["s9CodingKeyP", "charachterId"]
+- !private ["s9CodingKeyP", "date"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- !private ["s9CodingKeyP", "id"]
+- !private ["s9CodingKeyP", "imageUrl"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "title"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "=="]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "RawValue"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "_Default_RawValue"]
+- !private ["10Assessment13ComicsDBModelC10CodingKeysO", "_findStringSwitchCase"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "_rawHashValue"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "charachterId"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "date"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "debugDescription"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "deinit"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "desc"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "description"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "hash"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "hashValue"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "id"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "imageUrl"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "init"]
+- !private ["10Assessment13ComicsDBModelC10CodingKeysO", "init"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "intValue"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "rawValue"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "stringValue"]
+- ["10Assessment13ComicsDBModelC10CodingKeysO", "title"]
+- !private ["s17CodingUserInfoKeyV", "managedObjectContext"]
+- !private ["Sl", "emptyIfNil"]
+- !private ["Sl", "replacingOccurrences"]
+- ["10Assessment13ComicsDBModelC", "CodingKey"]
+- ["10Assessment13ComicsDBModelC", "CodingKeys"]
+- !private ["10Assessment13ComicsDBModelC", "CodingUserInfoKey"]
+- ["10Assessment13ComicsDBModelC", "ComicsDBModel"]
+- ["10Assessment13ComicsDBModelC", "Encoder"]
+- ["10Assessment13ComicsDBModelC", "Int"]
+- !private ["10Assessment13ComicsDBModelC", "NSEntityDescription"]
+- ["10Assessment13ComicsDBModelC", "NSFetchRequest"]
+- ["10Assessment13ComicsDBModelC", "NSManagedObjectContext"]
+- !private ["10Assessment13ComicsDBModelC", "NSPredicate"]
+- ["10Assessment13ComicsDBModelC", "NSSet"]
+- ["10Assessment13ComicsDBModelC", "String"]
+- ["10Assessment13ComicsDBModelC", "URL"]
+- !private ["10Assessment13ComicsDBModelC", "_findStringSwitchCase"]
+- ["10Assessment13ComicsDBModelC", "charachterId"]
+- ["10Assessment13ComicsDBModelC", "date"]
+- ["10Assessment13ComicsDBModelC", "deinit"]
+- ["10Assessment13ComicsDBModelC", "desc"]
+- ["10Assessment13ComicsDBModelC", "encode"]
+- ["10Assessment13ComicsDBModelC", "fetchRequest"]
+- ["10Assessment13ComicsDBModelC", "id"]
+- ["10Assessment13ComicsDBModelC", "imageUrl"]
+- ["10Assessment13ComicsDBModelC", "init"]
+- ["10Assessment13ComicsDBModelC", "of_char"]
+- ["10Assessment13ComicsDBModelC", "title"]
+- !private ["SL", "emptyIfNil"]
+- !private ["SL", "replacingOccurrences"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- !private ["s28CustomDebugStringConvertibleP", "CodingKeys"]
+- !private ["s28CustomDebugStringConvertibleP", "CodingUserInfoKey"]
+- !private ["s28CustomDebugStringConvertibleP", "NSEntityDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "NSFetchRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "NSPredicate"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "charachterId"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "desc"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "emptyIfNil"]
+- !private ["s28CustomDebugStringConvertibleP", "entity"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "imageUrl"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "predicate"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s17CustomReflectableP", "emptyIfNil"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "CodingKeys"]
+- !private ["s23CustomStringConvertibleP", "CodingUserInfoKey"]
+- !private ["s23CustomStringConvertibleP", "NSEntityDescription"]
+- !private ["s23CustomStringConvertibleP", "NSFetchRequest"]
+- !private ["s23CustomStringConvertibleP", "NSPredicate"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "charachterId"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "desc"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "emptyIfNil"]
+- !private ["s23CustomStringConvertibleP", "entity"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "imageUrl"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "predicate"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["Se", "emptyIfNil"]
+- !private ["Se", "init"]
+- !private ["Se", "replacingOccurrences"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "emptyIfNil"]
+- !private ["SE", "init"]
+- !private ["SE", "replacingOccurrences"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "=="]
+- !private ["SQ", "CodingKeys"]
+- !private ["SQ", "CodingUserInfoKey"]
+- !private ["SQ", "NSEntityDescription"]
+- !private ["SQ", "NSFetchRequest"]
+- !private ["SQ", "NSPredicate"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "String"]
+- !private ["SQ", "URL"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "charachterId"]
+- !private ["SQ", "date"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "desc"]
+- ["SQ", "description"]
+- !private ["SQ", "emptyIfNil"]
+- !private ["SQ", "entity"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "id"]
+- !private ["SQ", "imageUrl"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "managedObjectContext"]
+- !private ["SQ", "predicate"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "replacingOccurrences"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "title"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "emptyIfNil"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s32ExpressibleByStringInterpolationP", "emptyIfNil"]
+- !private ["s32ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "emptyIfNil"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "emptyIfNil"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
+- ["SH", "=="]
+- !private ["SH", "CodingKeys"]
+- !private ["SH", "CodingUserInfoKey"]
+- !private ["SH", "NSEntityDescription"]
+- !private ["SH", "NSFetchRequest"]
+- !private ["SH", "NSPredicate"]
+- ["SH", "RawValue"]
+- !private ["SH", "String"]
+- !private ["SH", "URL"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "charachterId"]
+- !private ["SH", "date"]
+- ["SH", "debugDescription"]
+- !private ["SH", "desc"]
+- ["SH", "description"]
+- !private ["SH", "emptyIfNil"]
+- !private ["SH", "entity"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "id"]
+- !private ["SH", "imageUrl"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "managedObjectContext"]
+- !private ["SH", "predicate"]
+- ["SH", "rawValue"]
+- !private ["SH", "replacingOccurrences"]
+- ["SH", "stringValue"]
+- !private ["SH", "title"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s25LosslessStringConvertibleP", "emptyIfNil"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- !private ["s10MirrorPathP", "emptyIfNil"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "entity"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "predicate"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
+- !private ["So9NSCopyingP", "entity"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "predicate"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So19NSEntityDescriptionC", "entity"]
+- !private ["So17NSFastEnumerationP", "entity"]
+- !private ["So14NSFetchRequestC", "init"]
+- !private ["So14NSFetchRequestC", "predicate"]
+- !private ["So20NSFetchRequestResultP", "CodingKeys"]
+- !private ["So20NSFetchRequestResultP", "CodingUserInfoKey"]
+- !private ["So20NSFetchRequestResultP", "NSEntityDescription"]
+- !private ["So20NSFetchRequestResultP", "NSFetchRequest"]
+- !private ["So20NSFetchRequestResultP", "NSPredicate"]
+- !private ["So20NSFetchRequestResultP", "String"]
+- !private ["So20NSFetchRequestResultP", "URL"]
+- ["So20NSFetchRequestResultP", ""]
+- !private ["So20NSFetchRequestResultP", "_findStringSwitchCase"]
+- !private ["So20NSFetchRequestResultP", "charachterId"]
+- !private ["So20NSFetchRequestResultP", "date"]
+- !private ["So20NSFetchRequestResultP", "desc"]
+- !private ["So20NSFetchRequestResultP", "id"]
+- !private ["So20NSFetchRequestResultP", "imageUrl"]
+- !private ["So20NSFetchRequestResultP", "init"]
+- !private ["So20NSFetchRequestResultP", "title"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
+- ["So15NSManagedObjectC", "CodingKey"]
+- !private ["So15NSManagedObjectC", "CodingKeys"]
+- !private ["So15NSManagedObjectC", "CodingUserInfoKey"]
+- ["So15NSManagedObjectC", "ComicsDBModel"]
+- ["So15NSManagedObjectC", "Encoder"]
+- ["So15NSManagedObjectC", "Int"]
+- !private ["So15NSManagedObjectC", "NSEntityDescription"]
+- ["So15NSManagedObjectC", "NSFetchRequest"]
+- ["So15NSManagedObjectC", "NSManagedObjectContext"]
+- !private ["So15NSManagedObjectC", "NSPredicate"]
+- ["So15NSManagedObjectC", "NSSet"]
+- ["So15NSManagedObjectC", "String"]
+- ["So15NSManagedObjectC", "URL"]
+- ["So15NSManagedObjectC", ""]
+- !private ["So15NSManagedObjectC", "_findStringSwitchCase"]
+- ["So15NSManagedObjectC", "charachterId"]
+- ["So15NSManagedObjectC", "date"]
+- ["So15NSManagedObjectC", "desc"]
+- ["So15NSManagedObjectC", "encode"]
+- ["So15NSManagedObjectC", "fetchRequest"]
+- ["So15NSManagedObjectC", "id"]
+- ["So15NSManagedObjectC", "imageUrl"]
+- ["So15NSManagedObjectC", "init"]
+- ["So15NSManagedObjectC", "of_char"]
+- ["So15NSManagedObjectC", "title"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
+- ["So8NSObjectC", "CodingKey"]
+- !private ["So8NSObjectC", "CodingKeys"]
+- !private ["So8NSObjectC", "CodingUserInfoKey"]
+- ["So8NSObjectC", "ComicsDBModel"]
+- ["So8NSObjectC", "Encoder"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSEntityDescription"]
+- ["So8NSObjectC", "NSFetchRequest"]
+- ["So8NSObjectC", "NSManagedObjectContext"]
+- !private ["So8NSObjectC", "NSPredicate"]
+- ["So8NSObjectC", "NSSet"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "_findStringSwitchCase"]
+- ["So8NSObjectC", "charachterId"]
+- ["So8NSObjectC", "date"]
+- ["So8NSObjectC", "desc"]
+- ["So8NSObjectC", "encode"]
+- !private ["So8NSObjectC", "entity"]
+- ["So8NSObjectC", "fetchRequest"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "imageUrl"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "of_char"]
+- !private ["So8NSObjectC", "predicate"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
+- ["So8NSObjectC", "title"]
+- !private ["So8NSObjectP", "CodingKeys"]
+- !private ["So8NSObjectP", "CodingUserInfoKey"]
+- !private ["So8NSObjectP", "NSEntityDescription"]
+- !private ["So8NSObjectP", "NSFetchRequest"]
+- !private ["So8NSObjectP", "NSPredicate"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "URL"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_findStringSwitchCase"]
+- !private ["So8NSObjectP", "charachterId"]
+- !private ["So8NSObjectP", "date"]
+- !private ["So8NSObjectP", "desc"]
+- !private ["So8NSObjectP", "entity"]
+- !private ["So8NSObjectP", "id"]
+- !private ["So8NSObjectP", "imageUrl"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "predicate"]
+- !private ["So8NSObjectP", "replacingOccurrences"]
+- !private ["So8NSObjectP", "title"]
+- !private ["So24NSPersistentStoreRequestC", "init"]
+- !private ["So24NSPersistentStoreRequestC", "predicate"]
+- !private ["So11NSPredicateC", "init"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So8NSStringC", "replacingOccurrences"]
+- !private ["7Combine16ObservableObjectP", "CodingKeys"]
+- !private ["7Combine16ObservableObjectP", "CodingUserInfoKey"]
+- !private ["7Combine16ObservableObjectP", "NSEntityDescription"]
+- !private ["7Combine16ObservableObjectP", "NSFetchRequest"]
+- !private ["7Combine16ObservableObjectP", "NSPredicate"]
+- !private ["7Combine16ObservableObjectP", "String"]
+- !private ["7Combine16ObservableObjectP", "URL"]
+- ["7Combine16ObservableObjectP", ""]
+- !private ["7Combine16ObservableObjectP", "_findStringSwitchCase"]
+- !private ["7Combine16ObservableObjectP", "charachterId"]
+- !private ["7Combine16ObservableObjectP", "date"]
+- !private ["7Combine16ObservableObjectP", "desc"]
+- !private ["7Combine16ObservableObjectP", "id"]
+- !private ["7Combine16ObservableObjectP", "imageUrl"]
+- !private ["7Combine16ObservableObjectP", "init"]
+- !private ["7Combine16ObservableObjectP", "title"]
+- !private ["Sm", "emptyIfNil"]
+- !private ["Sm", "replacingOccurrences"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "charachterId"]
+- !private ["SY", "date"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- !private ["SY", "id"]
+- !private ["SY", "imageUrl"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- !private ["SY", "managedObjectContext"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["SY", "title"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "emptyIfNil"]
+- !private ["ST", "replacingOccurrences"]
+- !private ["SS", "emptyIfNil"]
+- !private ["SS", "replacingOccurrences"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "emptyIfNil"]
+- !private ["Sy", "replacingOccurrences"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "emptyIfNil"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- !private ["s20TextOutputStreamableP", "emptyIfNil"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "emptyIfNil"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "emptyIfNil"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "emptyIfNil"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "emptyIfNil"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "emptyIfNil"]
+- !private ["s19_HasContiguousBytesP", "replacingOccurrences"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CodingKeys"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CodingUserInfoKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSEntityDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSFetchRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSPredicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_findStringSwitchCase"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "charachterId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "desc"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "entity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imageUrl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "predicate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CodingKeys"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CodingUserInfoKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSEntityDescription"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSFetchRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSPredicate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_findStringSwitchCase"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "charachterId"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "date"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "desc"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "entity"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "id"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "imageUrl"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "predicate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "replacingOccurrences"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "title"]
+- !private ["s21_ObjectiveCBridgeableP", "emptyIfNil"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+depends-nominal:
+- !private "SK"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "10Assessment13ComicsDBModelC10CodingKeysO"
+- !private "s17CodingUserInfoKeyV"
+- !private "Sl"
+- "10Assessment13ComicsDBModelC"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So19NSEntityDescriptionC"
+- !private "So17NSFastEnumerationP"
+- !private "So14NSFetchRequestC"
+- "So20NSFetchRequestResultP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So15NSManagedObjectC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So24NSPersistentStoreRequestC"
+- !private "So11NSPredicateC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "7Combine16ObservableObjectP"
+- !private "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/Swinject.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/module.modulemap"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3a377755ecbcd0bc6ec877811f24defa"

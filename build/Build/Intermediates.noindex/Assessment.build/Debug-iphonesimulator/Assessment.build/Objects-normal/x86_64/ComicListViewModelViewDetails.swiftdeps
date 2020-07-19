@@ -1,0 +1,632 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ComicListViewModelViewDetails"
+provides-nominal:
+- "10Assessment018ComicListViewModelD7DetailsC"
+provides-member:
+- ["10Assessment018ComicListViewModelD7DetailsC", ""]
+provides-dynamic-lookup:
+- "ComicList"
+- "apiService"
+- "appDelegate"
+- "charachterId"
+- "comicListApiLimit"
+- "comicListApiOffset"
+- "comicListApiTotal"
+- "comicListDataSource"
+- "coreDataStack"
+- "error"
+- "fetchComicList"
+- "fetchMoreComics"
+- "getSelectedComicViewModel"
+- "isComicDataLoading"
+- "isOffline"
+- "noOfComics"
+- "preLoadComicList"
+- "processFetchedComicDetail"
+- "refreshComicList"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "+="
+- !private "-"
+- !private "=="
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "ComicListViewModel"
+- "ComicListViewModelViewDetails"
+- "ComicsDBModel"
+- "DBHandler"
+- "Dynamic"
+- "FloatLiteralType"
+- "IndexPath"
+- "Int"
+- "IntegerLiteralType"
+- !private "JSONDecoder"
+- !private "MarvelRequestsEndPoint"
+- "NSObject"
+- !private "Reachability"
+- !private "ResponsListConstant"
+- "ResponseJson"
+- "ResultComic"
+- "String"
+- !private "StringLiteralType"
+- "UIApplication"
+- "URLSessionAPIService"
+- "Void"
+- !private "debugPrint"
+- !private "print"
+depends-member:
+- !private ["10Assessment10APIServiceP", "dispatch"]
+- ["10Assessment10APIServiceP", "init"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "count"]
+- !private ["SK", "row"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "ComicList"]
+- !private ["s7CVarArgP", "Dynamic"]
+- !private ["s7CVarArgP", "JSONDecoder"]
+- !private ["s7CVarArgP", "MarvelRequestsEndPoint"]
+- !private ["s7CVarArgP", "Reachability"]
+- !private ["s7CVarArgP", "ResponsListConstant"]
+- !private ["s7CVarArgP", "ResponseJson"]
+- ["s7CVarArgP", "UIApplication"]
+- ["s7CVarArgP", "URLSessionAPIService"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "apiService"]
+- !private ["s7CVarArgP", "charachterId"]
+- !private ["s7CVarArgP", "comicListApiLimit"]
+- !private ["s7CVarArgP", "comicListApiOffset"]
+- ["s7CVarArgP", "comicListApiTotal"]
+- !private ["s7CVarArgP", "comicListDataSource"]
+- ["s7CVarArgP", "coreDataStack"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "debugPrint"]
+- ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "error"]
+- ["s7CVarArgP", "fetchComicList"]
+- ["s7CVarArgP", "fetchMoreComics"]
+- ["s7CVarArgP", "getSelectedComicViewModel"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "isComicDataLoading"]
+- ["s7CVarArgP", "isOffline"]
+- ["s7CVarArgP", "noOfComics"]
+- ["s7CVarArgP", "preLoadComicList"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "processFetchedComicDetail"]
+- ["s7CVarArgP", "refreshComicList"]
+- ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "count"]
+- !private ["Sl", "row"]
+- !private ["Sl", "subscript"]
+- !private ["10Assessment18ComicListViewModelP", "ComicList"]
+- !private ["10Assessment18ComicListViewModelP", "Dynamic"]
+- !private ["10Assessment18ComicListViewModelP", "JSONDecoder"]
+- !private ["10Assessment18ComicListViewModelP", "MarvelRequestsEndPoint"]
+- !private ["10Assessment18ComicListViewModelP", "Reachability"]
+- !private ["10Assessment18ComicListViewModelP", "ResponsListConstant"]
+- !private ["10Assessment18ComicListViewModelP", "ResponseJson"]
+- ["10Assessment18ComicListViewModelP", "UIApplication"]
+- ["10Assessment18ComicListViewModelP", "URLSessionAPIService"]
+- ["10Assessment18ComicListViewModelP", ""]
+- !private ["10Assessment18ComicListViewModelP", "apiService"]
+- !private ["10Assessment18ComicListViewModelP", "charachterId"]
+- !private ["10Assessment18ComicListViewModelP", "comicListApiLimit"]
+- !private ["10Assessment18ComicListViewModelP", "comicListApiOffset"]
+- ["10Assessment18ComicListViewModelP", "comicListApiTotal"]
+- !private ["10Assessment18ComicListViewModelP", "comicListDataSource"]
+- ["10Assessment18ComicListViewModelP", "coreDataStack"]
+- !private ["10Assessment18ComicListViewModelP", "debugPrint"]
+- ["10Assessment18ComicListViewModelP", "error"]
+- ["10Assessment18ComicListViewModelP", "fetchComicList"]
+- ["10Assessment18ComicListViewModelP", "fetchMoreComics"]
+- ["10Assessment18ComicListViewModelP", "getSelectedComicViewModel"]
+- ["10Assessment18ComicListViewModelP", "isComicDataLoading"]
+- ["10Assessment18ComicListViewModelP", "isOffline"]
+- ["10Assessment18ComicListViewModelP", "noOfComics"]
+- ["10Assessment18ComicListViewModelP", "preLoadComicList"]
+- !private ["10Assessment18ComicListViewModelP", "print"]
+- !private ["10Assessment18ComicListViewModelP", "processFetchedComicDetail"]
+- ["10Assessment18ComicListViewModelP", "refreshComicList"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "AppDelegate"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "Bool"]
+- !private ["10Assessment018ComicListViewModelD7DetailsC", "ComicList"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "ComicsDBModel"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "DBHandler"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "Dynamic"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "IndexPath"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "Int"]
+- !private ["10Assessment018ComicListViewModelD7DetailsC", "JSONDecoder"]
+- !private ["10Assessment018ComicListViewModelD7DetailsC", "MarvelRequestsEndPoint"]
+- !private ["10Assessment018ComicListViewModelD7DetailsC", "Reachability"]
+- !private ["10Assessment018ComicListViewModelD7DetailsC", "ResponsListConstant"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "ResponseJson"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "ResultComic"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "String"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "UIApplication"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "URLSessionAPIService"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "Void"]
+- !private ["10Assessment018ComicListViewModelD7DetailsC", "apiService"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "appDelegate"]
+- !private ["10Assessment018ComicListViewModelD7DetailsC", "charachterId"]
+- !private ["10Assessment018ComicListViewModelD7DetailsC", "comicListApiLimit"]
+- !private ["10Assessment018ComicListViewModelD7DetailsC", "comicListApiOffset"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "comicListApiTotal"]
+- !private ["10Assessment018ComicListViewModelD7DetailsC", "comicListDataSource"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "coreDataStack"]
+- !private ["10Assessment018ComicListViewModelD7DetailsC", "debugPrint"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "deinit"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "error"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "fetchComicList"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "fetchMoreComics"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "getSelectedComicViewModel"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "init"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "isComicDataLoading"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "isOffline"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "noOfComics"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "preLoadComicList"]
+- !private ["10Assessment018ComicListViewModelD7DetailsC", "print"]
+- !private ["10Assessment018ComicListViewModelD7DetailsC", "processFetchedComicDetail"]
+- ["10Assessment018ComicListViewModelD7DetailsC", "refreshComicList"]
+- !private ["SL", "row"]
+- !private ["12ReachabilityAAC10ConnectionO", "unavailable"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "ComicList"]
+- !private ["s28CustomDebugStringConvertibleP", "Dynamic"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "MarvelRequestsEndPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "Reachability"]
+- !private ["s28CustomDebugStringConvertibleP", "ResponsListConstant"]
+- !private ["s28CustomDebugStringConvertibleP", "ResponseJson"]
+- ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- ["s28CustomDebugStringConvertibleP", "URLSessionAPIService"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "apiService"]
+- !private ["s28CustomDebugStringConvertibleP", "charachterId"]
+- !private ["s28CustomDebugStringConvertibleP", "comicListApiLimit"]
+- !private ["s28CustomDebugStringConvertibleP", "comicListApiOffset"]
+- ["s28CustomDebugStringConvertibleP", "comicListApiTotal"]
+- !private ["s28CustomDebugStringConvertibleP", "comicListDataSource"]
+- ["s28CustomDebugStringConvertibleP", "coreDataStack"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "error"]
+- ["s28CustomDebugStringConvertibleP", "fetchComicList"]
+- ["s28CustomDebugStringConvertibleP", "fetchMoreComics"]
+- ["s28CustomDebugStringConvertibleP", "getSelectedComicViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "isComicDataLoading"]
+- ["s28CustomDebugStringConvertibleP", "isOffline"]
+- ["s28CustomDebugStringConvertibleP", "noOfComics"]
+- ["s28CustomDebugStringConvertibleP", "preLoadComicList"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "processFetchedComicDetail"]
+- ["s28CustomDebugStringConvertibleP", "refreshComicList"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "ComicList"]
+- !private ["s23CustomStringConvertibleP", "Dynamic"]
+- !private ["s23CustomStringConvertibleP", "JSONDecoder"]
+- !private ["s23CustomStringConvertibleP", "MarvelRequestsEndPoint"]
+- !private ["s23CustomStringConvertibleP", "Reachability"]
+- !private ["s23CustomStringConvertibleP", "ResponsListConstant"]
+- !private ["s23CustomStringConvertibleP", "ResponseJson"]
+- ["s23CustomStringConvertibleP", "UIApplication"]
+- ["s23CustomStringConvertibleP", "URLSessionAPIService"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "apiService"]
+- !private ["s23CustomStringConvertibleP", "charachterId"]
+- !private ["s23CustomStringConvertibleP", "comicListApiLimit"]
+- !private ["s23CustomStringConvertibleP", "comicListApiOffset"]
+- ["s23CustomStringConvertibleP", "comicListApiTotal"]
+- !private ["s23CustomStringConvertibleP", "comicListDataSource"]
+- ["s23CustomStringConvertibleP", "coreDataStack"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "error"]
+- ["s23CustomStringConvertibleP", "fetchComicList"]
+- ["s23CustomStringConvertibleP", "fetchMoreComics"]
+- ["s23CustomStringConvertibleP", "getSelectedComicViewModel"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "isComicDataLoading"]
+- ["s23CustomStringConvertibleP", "isOffline"]
+- ["s23CustomStringConvertibleP", "noOfComics"]
+- ["s23CustomStringConvertibleP", "preLoadComicList"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "processFetchedComicDetail"]
+- ["s23CustomStringConvertibleP", "refreshComicList"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unavailable"]
+- !private ["10Assessment9DBHandlerP", "fetchFromStorageComicList"]
+- !private ["10Assessment9DBHandlerP", "saveToDBComicList"]
+- !private ["10Assessment9DataClassC", "results"]
+- !private ["10Assessment9DataClassC", "total"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- !private ["Se", "data"]
+- !private ["Se", "results"]
+- !private ["Se", "row"]
+- !private ["Se", "subscript"]
+- !private ["Se", "total"]
+- !private ["10Assessment7DynamicC", "init"]
+- !private ["10Assessment7DynamicC", "value"]
+- !private ["SE", "count"]
+- !private ["SE", "row"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "ComicList"]
+- !private ["SQ", "Dynamic"]
+- !private ["SQ", "JSONDecoder"]
+- !private ["SQ", "MarvelRequestsEndPoint"]
+- !private ["SQ", "Reachability"]
+- !private ["SQ", "ResponsListConstant"]
+- !private ["SQ", "ResponseJson"]
+- ["SQ", "UIApplication"]
+- ["SQ", "URLSessionAPIService"]
+- ["SQ", ""]
+- !private ["SQ", "apiService"]
+- !private ["SQ", "charachterId"]
+- !private ["SQ", "comicListApiLimit"]
+- !private ["SQ", "comicListApiOffset"]
+- ["SQ", "comicListApiTotal"]
+- !private ["SQ", "comicListDataSource"]
+- ["SQ", "coreDataStack"]
+- !private ["SQ", "count"]
+- !private ["SQ", "debugPrint"]
+- ["SQ", "delegate"]
+- ["SQ", "error"]
+- ["SQ", "fetchComicList"]
+- ["SQ", "fetchMoreComics"]
+- ["SQ", "getSelectedComicViewModel"]
+- !private ["SQ", "init"]
+- ["SQ", "isComicDataLoading"]
+- ["SQ", "isOffline"]
+- ["SQ", "noOfComics"]
+- ["SQ", "preLoadComicList"]
+- !private ["SQ", "print"]
+- !private ["SQ", "processFetchedComicDetail"]
+- ["SQ", "refreshComicList"]
+- !private ["SQ", "row"]
+- ["SQ", "shared"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unavailable"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["10Assessment19ResponsListConstantV13ErrorMessagesV", "NoDataToShow"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["SH", "ComicList"]
+- !private ["SH", "Dynamic"]
+- !private ["SH", "JSONDecoder"]
+- !private ["SH", "MarvelRequestsEndPoint"]
+- !private ["SH", "Reachability"]
+- !private ["SH", "ResponsListConstant"]
+- !private ["SH", "ResponseJson"]
+- ["SH", "UIApplication"]
+- ["SH", "URLSessionAPIService"]
+- ["SH", ""]
+- !private ["SH", "apiService"]
+- !private ["SH", "charachterId"]
+- !private ["SH", "comicListApiLimit"]
+- !private ["SH", "comicListApiOffset"]
+- ["SH", "comicListApiTotal"]
+- !private ["SH", "comicListDataSource"]
+- ["SH", "coreDataStack"]
+- !private ["SH", "count"]
+- !private ["SH", "debugPrint"]
+- ["SH", "delegate"]
+- ["SH", "error"]
+- ["SH", "fetchComicList"]
+- ["SH", "fetchMoreComics"]
+- ["SH", "getSelectedComicViewModel"]
+- !private ["SH", "init"]
+- ["SH", "isComicDataLoading"]
+- ["SH", "isOffline"]
+- ["SH", "noOfComics"]
+- ["SH", "preLoadComicList"]
+- !private ["SH", "print"]
+- !private ["SH", "processFetchedComicDetail"]
+- ["SH", "refreshComicList"]
+- !private ["SH", "row"]
+- ["SH", "shared"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unavailable"]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Assessment22MarvelRequestsEndPointO", "comicList"]
+- !private ["10Assessment22MarvelRequestsEndPointO", "deinit"]
+- !private ["SM", "count"]
+- !private ["SM", "row"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So8NSObjectC", "AppDelegate"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "ComicList"]
+- ["So8NSObjectC", "ComicsDBModel"]
+- ["So8NSObjectC", "DBHandler"]
+- ["So8NSObjectC", "Dynamic"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "JSONDecoder"]
+- !private ["So8NSObjectC", "MarvelRequestsEndPoint"]
+- !private ["So8NSObjectC", "Reachability"]
+- !private ["So8NSObjectC", "ResponsListConstant"]
+- ["So8NSObjectC", "ResponseJson"]
+- ["So8NSObjectC", "ResultComic"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "URLSessionAPIService"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "apiService"]
+- ["So8NSObjectC", "appDelegate"]
+- ["So8NSObjectC", "charachterId"]
+- ["So8NSObjectC", "comicListApiLimit"]
+- ["So8NSObjectC", "comicListApiOffset"]
+- ["So8NSObjectC", "comicListApiTotal"]
+- ["So8NSObjectC", "comicListDataSource"]
+- ["So8NSObjectC", "coreDataStack"]
+- !private ["So8NSObjectC", "debugPrint"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "error"]
+- ["So8NSObjectC", "fetchComicList"]
+- ["So8NSObjectC", "fetchMoreComics"]
+- ["So8NSObjectC", "getSelectedComicViewModel"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isComicDataLoading"]
+- ["So8NSObjectC", "isOffline"]
+- ["So8NSObjectC", "noOfComics"]
+- ["So8NSObjectC", "preLoadComicList"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "processFetchedComicDetail"]
+- ["So8NSObjectC", "refreshComicList"]
+- ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "ComicList"]
+- !private ["So8NSObjectP", "Dynamic"]
+- !private ["So8NSObjectP", "JSONDecoder"]
+- !private ["So8NSObjectP", "MarvelRequestsEndPoint"]
+- !private ["So8NSObjectP", "Reachability"]
+- !private ["So8NSObjectP", "ResponsListConstant"]
+- !private ["So8NSObjectP", "ResponseJson"]
+- ["So8NSObjectP", "UIApplication"]
+- ["So8NSObjectP", "URLSessionAPIService"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "apiService"]
+- !private ["So8NSObjectP", "charachterId"]
+- !private ["So8NSObjectP", "comicListApiLimit"]
+- !private ["So8NSObjectP", "comicListApiOffset"]
+- ["So8NSObjectP", "comicListApiTotal"]
+- !private ["So8NSObjectP", "comicListDataSource"]
+- ["So8NSObjectP", "coreDataStack"]
+- !private ["So8NSObjectP", "debugPrint"]
+- ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "error"]
+- ["So8NSObjectP", "fetchComicList"]
+- ["So8NSObjectP", "fetchMoreComics"]
+- ["So8NSObjectP", "getSelectedComicViewModel"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isComicDataLoading"]
+- ["So8NSObjectP", "isOffline"]
+- ["So8NSObjectP", "noOfComics"]
+- ["So8NSObjectP", "preLoadComicList"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "processFetchedComicDetail"]
+- ["So8NSObjectP", "refreshComicList"]
+- ["So8NSObjectP", "shared"]
+- !private ["Sk", "count"]
+- !private ["Sk", "row"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "subscript"]
+- !private ["12ReachabilityAAC", "connection"]
+- !private ["12ReachabilityAAC", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["10Assessment15RequestEndPointP", "comicList"]
+- !private ["10Assessment19ResponsListConstantV", "ErrorMessages"]
+- !private ["10Assessment12ResponseJsonC", "data"]
+- !private ["10Assessment12ResponseJsonC", "deinit"]
+- ["10Assessment11ResultComicC", "deinit"]
+- !private ["ST", "count"]
+- !private ["ST", "row"]
+- !private ["ST", "subscript"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- ["So13UIApplicationC", "delegate"]
+- ["So13UIApplicationC", "shared"]
+- ["So30UIPasteConfigurationSupportingP", "delegate"]
+- ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "shared"]
+- ["So30UIResponderStandardEditActionsP", "delegate"]
+- ["So30UIResponderStandardEditActionsP", "shared"]
+- ["So23UIUserActivityRestoringP", "delegate"]
+- ["So23UIUserActivityRestoringP", "shared"]
+- !private ["10Assessment20URLSessionAPIServiceC", "deinit"]
+- !private ["10Assessment20URLSessionAPIServiceC", "dispatch"]
+- ["10Assessment20URLSessionAPIServiceC", "init"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ComicList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Dynamic"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONDecoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MarvelRequestsEndPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Reachability"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ResponsListConstant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ResponseJson"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionAPIService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "apiService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "charachterId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "comicListApiLimit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "comicListApiOffset"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "comicListApiTotal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "comicListDataSource"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "coreDataStack"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "error"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "fetchComicList"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "fetchMoreComics"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getSelectedComicViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isComicDataLoading"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isOffline"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "noOfComics"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "preLoadComicList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processFetchedComicDetail"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "refreshComicList"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ComicList"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Dynamic"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONDecoder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MarvelRequestsEndPoint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Reachability"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ResponsListConstant"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ResponseJson"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLSessionAPIService"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "apiService"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "charachterId"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "comicListApiLimit"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "comicListApiOffset"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "comicListApiTotal"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "comicListDataSource"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "coreDataStack"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "debugPrint"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "error"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetchComicList"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetchMoreComics"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getSelectedComicViewModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isComicDataLoading"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isOffline"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "noOfComics"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "preLoadComicList"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "processFetchedComicDetail"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "refreshComicList"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "10Assessment10APIServiceP"
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- "10Assessment18ComicListViewModelP"
+- "10Assessment018ComicListViewModelD7DetailsC"
+- !private "SL"
+- !private "12ReachabilityAAC10ConnectionO"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Assessment9DBHandlerP"
+- !private "10Assessment9DataClassC"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "10Assessment7DynamicC"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "10Assessment19ResponsListConstantV13ErrorMessagesV"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "10Foundation9IndexPathV"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Assessment22MarvelRequestsEndPointO"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "12ReachabilityAAC"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Assessment15RequestEndPointP"
+- !private "10Assessment19ResponsListConstantV"
+- !private "10Assessment12ResponseJsonC"
+- "10Assessment11ResultComicC"
+- !private "ST"
+- !private "7Combine15TopLevelDecoderP"
+- "So13UIApplicationC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So23UIUserActivityRestoringP"
+- "10Assessment20URLSessionAPIServiceC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/Swinject.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/Swinject/Swinject.framework/Modules/module.modulemap"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e508aaab90233e6121b5ea947a76e049"

@@ -1,0 +1,613 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CharachterListViewModelDetails"
+provides-nominal:
+- "10Assessment30CharachterListViewModelDetailsC"
+provides-member:
+- ["10Assessment30CharachterListViewModelDetailsC", ""]
+provides-dynamic-lookup:
+- "apiService"
+- "appDelegate"
+- "charachterList"
+- "charachterListApiLimit"
+- "charachterListApiOffset"
+- "charachterListApiTotal"
+- "charachterListDataSource"
+- "charachterListDataSourceView"
+- "coreDataStack"
+- "errorCharachter"
+- "fetchCharachterList"
+- "fetchMoreCharachters"
+- "getSelectedCharachterViewModel"
+- "isCharachterDataLoading"
+- "isOffline"
+- "noOfCharachters"
+- "processFetchedCharachterDetail"
+- "refreshCharachterList"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "+="
+- !private "=="
+- "AppDelegate"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "CharachterDBModel"
+- "CharachterListViewModel"
+- "CharachterListViewModelDetails"
+- "CharachterViewModel"
+- "DBHandler"
+- "Dynamic"
+- "FloatLiteralType"
+- "IndexPath"
+- "Int"
+- "IntegerLiteralType"
+- !private "JSONDecoder"
+- !private "MarvelRequestsEndPoint"
+- "NSObject"
+- !private "Reachability"
+- !private "ResponsListConstant"
+- "ResponseJson"
+- "ResultCharachter"
+- "String"
+- !private "StringLiteralType"
+- "UIApplication"
+- "URLSessionAPIService"
+- "Void"
+- !private "debugPrint"
+- !private "print"
+depends-member:
+- !private ["10Assessment10APIServiceP", "dispatch"]
+- ["10Assessment10APIServiceP", "init"]
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
+- !private ["SK", "count"]
+- !private ["SK", "row"]
+- !private ["SK", "subscript"]
+- !private ["s7CVarArgP", "Dynamic"]
+- !private ["s7CVarArgP", "JSONDecoder"]
+- !private ["s7CVarArgP", "MarvelRequestsEndPoint"]
+- !private ["s7CVarArgP", "Reachability"]
+- !private ["s7CVarArgP", "ResponsListConstant"]
+- !private ["s7CVarArgP", "ResponseJson"]
+- ["s7CVarArgP", "UIApplication"]
+- ["s7CVarArgP", "URLSessionAPIService"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "apiService"]
+- !private ["s7CVarArgP", "charachterList"]
+- !private ["s7CVarArgP", "charachterListApiLimit"]
+- !private ["s7CVarArgP", "charachterListApiOffset"]
+- ["s7CVarArgP", "charachterListApiTotal"]
+- !private ["s7CVarArgP", "charachterListDataSource"]
+- ["s7CVarArgP", "coreDataStack"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "debugPrint"]
+- ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "errorCharachter"]
+- ["s7CVarArgP", "fetchCharachterList"]
+- ["s7CVarArgP", "fetchMoreCharachters"]
+- ["s7CVarArgP", "getSelectedCharachterViewModel"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "isCharachterDataLoading"]
+- ["s7CVarArgP", "isOffline"]
+- ["s7CVarArgP", "noOfCharachters"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "processFetchedCharachterDetail"]
+- ["s7CVarArgP", "refreshCharachterList"]
+- ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["10Assessment23CharachterListViewModelP", "Dynamic"]
+- !private ["10Assessment23CharachterListViewModelP", "JSONDecoder"]
+- !private ["10Assessment23CharachterListViewModelP", "MarvelRequestsEndPoint"]
+- !private ["10Assessment23CharachterListViewModelP", "Reachability"]
+- !private ["10Assessment23CharachterListViewModelP", "ResponsListConstant"]
+- !private ["10Assessment23CharachterListViewModelP", "ResponseJson"]
+- ["10Assessment23CharachterListViewModelP", "UIApplication"]
+- ["10Assessment23CharachterListViewModelP", "URLSessionAPIService"]
+- ["10Assessment23CharachterListViewModelP", ""]
+- !private ["10Assessment23CharachterListViewModelP", "apiService"]
+- !private ["10Assessment23CharachterListViewModelP", "charachterList"]
+- !private ["10Assessment23CharachterListViewModelP", "charachterListApiLimit"]
+- !private ["10Assessment23CharachterListViewModelP", "charachterListApiOffset"]
+- ["10Assessment23CharachterListViewModelP", "charachterListApiTotal"]
+- !private ["10Assessment23CharachterListViewModelP", "charachterListDataSource"]
+- ["10Assessment23CharachterListViewModelP", "coreDataStack"]
+- !private ["10Assessment23CharachterListViewModelP", "debugPrint"]
+- ["10Assessment23CharachterListViewModelP", "errorCharachter"]
+- ["10Assessment23CharachterListViewModelP", "fetchCharachterList"]
+- ["10Assessment23CharachterListViewModelP", "fetchMoreCharachters"]
+- ["10Assessment23CharachterListViewModelP", "getSelectedCharachterViewModel"]
+- ["10Assessment23CharachterListViewModelP", "isCharachterDataLoading"]
+- ["10Assessment23CharachterListViewModelP", "isOffline"]
+- ["10Assessment23CharachterListViewModelP", "noOfCharachters"]
+- !private ["10Assessment23CharachterListViewModelP", "print"]
+- !private ["10Assessment23CharachterListViewModelP", "processFetchedCharachterDetail"]
+- ["10Assessment23CharachterListViewModelP", "refreshCharachterList"]
+- ["10Assessment30CharachterListViewModelDetailsC", "AppDelegate"]
+- ["10Assessment30CharachterListViewModelDetailsC", "Bool"]
+- ["10Assessment30CharachterListViewModelDetailsC", "CharachterDBModel"]
+- ["10Assessment30CharachterListViewModelDetailsC", "CharachterViewModel"]
+- ["10Assessment30CharachterListViewModelDetailsC", "DBHandler"]
+- ["10Assessment30CharachterListViewModelDetailsC", "Dynamic"]
+- ["10Assessment30CharachterListViewModelDetailsC", "IndexPath"]
+- ["10Assessment30CharachterListViewModelDetailsC", "Int"]
+- !private ["10Assessment30CharachterListViewModelDetailsC", "JSONDecoder"]
+- !private ["10Assessment30CharachterListViewModelDetailsC", "MarvelRequestsEndPoint"]
+- !private ["10Assessment30CharachterListViewModelDetailsC", "Reachability"]
+- !private ["10Assessment30CharachterListViewModelDetailsC", "ResponsListConstant"]
+- ["10Assessment30CharachterListViewModelDetailsC", "ResponseJson"]
+- ["10Assessment30CharachterListViewModelDetailsC", "ResultCharachter"]
+- ["10Assessment30CharachterListViewModelDetailsC", "String"]
+- ["10Assessment30CharachterListViewModelDetailsC", "UIApplication"]
+- ["10Assessment30CharachterListViewModelDetailsC", "URLSessionAPIService"]
+- ["10Assessment30CharachterListViewModelDetailsC", "Void"]
+- !private ["10Assessment30CharachterListViewModelDetailsC", "apiService"]
+- ["10Assessment30CharachterListViewModelDetailsC", "appDelegate"]
+- !private ["10Assessment30CharachterListViewModelDetailsC", "charachterList"]
+- !private ["10Assessment30CharachterListViewModelDetailsC", "charachterListApiLimit"]
+- !private ["10Assessment30CharachterListViewModelDetailsC", "charachterListApiOffset"]
+- ["10Assessment30CharachterListViewModelDetailsC", "charachterListApiTotal"]
+- !private ["10Assessment30CharachterListViewModelDetailsC", "charachterListDataSource"]
+- !private ["10Assessment30CharachterListViewModelDetailsC", "charachterListDataSourceView"]
+- ["10Assessment30CharachterListViewModelDetailsC", "coreDataStack"]
+- !private ["10Assessment30CharachterListViewModelDetailsC", "debugPrint"]
+- ["10Assessment30CharachterListViewModelDetailsC", "deinit"]
+- ["10Assessment30CharachterListViewModelDetailsC", "errorCharachter"]
+- ["10Assessment30CharachterListViewModelDetailsC", "fetchCharachterList"]
+- ["10Assessment30CharachterListViewModelDetailsC", "fetchMoreCharachters"]
+- ["10Assessment30CharachterListViewModelDetailsC", "getSelectedCharachterViewModel"]
+- ["10Assessment30CharachterListViewModelDetailsC", "init"]
+- ["10Assessment30CharachterListViewModelDetailsC", "isCharachterDataLoading"]
+- ["10Assessment30CharachterListViewModelDetailsC", "isOffline"]
+- ["10Assessment30CharachterListViewModelDetailsC", "noOfCharachters"]
+- !private ["10Assessment30CharachterListViewModelDetailsC", "print"]
+- !private ["10Assessment30CharachterListViewModelDetailsC", "processFetchedCharachterDetail"]
+- ["10Assessment30CharachterListViewModelDetailsC", "refreshCharachterList"]
+- !private ["Sl", "count"]
+- !private ["Sl", "row"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "row"]
+- !private ["12ReachabilityAAC10ConnectionO", "unavailable"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Dynamic"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "MarvelRequestsEndPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "Reachability"]
+- !private ["s28CustomDebugStringConvertibleP", "ResponsListConstant"]
+- !private ["s28CustomDebugStringConvertibleP", "ResponseJson"]
+- ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- ["s28CustomDebugStringConvertibleP", "URLSessionAPIService"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "apiService"]
+- !private ["s28CustomDebugStringConvertibleP", "charachterList"]
+- !private ["s28CustomDebugStringConvertibleP", "charachterListApiLimit"]
+- !private ["s28CustomDebugStringConvertibleP", "charachterListApiOffset"]
+- ["s28CustomDebugStringConvertibleP", "charachterListApiTotal"]
+- !private ["s28CustomDebugStringConvertibleP", "charachterListDataSource"]
+- ["s28CustomDebugStringConvertibleP", "coreDataStack"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "errorCharachter"]
+- ["s28CustomDebugStringConvertibleP", "fetchCharachterList"]
+- ["s28CustomDebugStringConvertibleP", "fetchMoreCharachters"]
+- ["s28CustomDebugStringConvertibleP", "getSelectedCharachterViewModel"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "isCharachterDataLoading"]
+- ["s28CustomDebugStringConvertibleP", "isOffline"]
+- ["s28CustomDebugStringConvertibleP", "noOfCharachters"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "processFetchedCharachterDetail"]
+- ["s28CustomDebugStringConvertibleP", "refreshCharachterList"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
+- ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Dynamic"]
+- !private ["s23CustomStringConvertibleP", "JSONDecoder"]
+- !private ["s23CustomStringConvertibleP", "MarvelRequestsEndPoint"]
+- !private ["s23CustomStringConvertibleP", "Reachability"]
+- !private ["s23CustomStringConvertibleP", "ResponsListConstant"]
+- !private ["s23CustomStringConvertibleP", "ResponseJson"]
+- ["s23CustomStringConvertibleP", "UIApplication"]
+- ["s23CustomStringConvertibleP", "URLSessionAPIService"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "apiService"]
+- !private ["s23CustomStringConvertibleP", "charachterList"]
+- !private ["s23CustomStringConvertibleP", "charachterListApiLimit"]
+- !private ["s23CustomStringConvertibleP", "charachterListApiOffset"]
+- ["s23CustomStringConvertibleP", "charachterListApiTotal"]
+- !private ["s23CustomStringConvertibleP", "charachterListDataSource"]
+- ["s23CustomStringConvertibleP", "coreDataStack"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "errorCharachter"]
+- ["s23CustomStringConvertibleP", "fetchCharachterList"]
+- ["s23CustomStringConvertibleP", "fetchMoreCharachters"]
+- ["s23CustomStringConvertibleP", "getSelectedCharachterViewModel"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "isCharachterDataLoading"]
+- ["s23CustomStringConvertibleP", "isOffline"]
+- ["s23CustomStringConvertibleP", "noOfCharachters"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "processFetchedCharachterDetail"]
+- ["s23CustomStringConvertibleP", "refreshCharachterList"]
+- !private ["s23CustomStringConvertibleP", "row"]
+- ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unavailable"]
+- !private ["10Assessment9DBHandlerP", "fetchFromStorageCharachterList"]
+- !private ["10Assessment9DBHandlerP", "saveToDBCharachterList"]
+- !private ["10Assessment9DataClassC", "results"]
+- !private ["10Assessment9DataClassC", "total"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- !private ["Se", "data"]
+- !private ["Se", "results"]
+- !private ["Se", "row"]
+- !private ["Se", "subscript"]
+- !private ["Se", "total"]
+- !private ["10Assessment7DynamicC", "init"]
+- !private ["10Assessment7DynamicC", "value"]
+- !private ["SE", "count"]
+- !private ["SE", "row"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Dynamic"]
+- !private ["SQ", "JSONDecoder"]
+- !private ["SQ", "MarvelRequestsEndPoint"]
+- !private ["SQ", "Reachability"]
+- !private ["SQ", "ResponsListConstant"]
+- !private ["SQ", "ResponseJson"]
+- ["SQ", "UIApplication"]
+- ["SQ", "URLSessionAPIService"]
+- ["SQ", ""]
+- !private ["SQ", "apiService"]
+- !private ["SQ", "charachterList"]
+- !private ["SQ", "charachterListApiLimit"]
+- !private ["SQ", "charachterListApiOffset"]
+- ["SQ", "charachterListApiTotal"]
+- !private ["SQ", "charachterListDataSource"]
+- ["SQ", "coreDataStack"]
+- !private ["SQ", "count"]
+- !private ["SQ", "debugPrint"]
+- ["SQ", "delegate"]
+- ["SQ", "errorCharachter"]
+- ["SQ", "fetchCharachterList"]
+- ["SQ", "fetchMoreCharachters"]
+- ["SQ", "getSelectedCharachterViewModel"]
+- !private ["SQ", "init"]
+- ["SQ", "isCharachterDataLoading"]
+- ["SQ", "isOffline"]
+- ["SQ", "noOfCharachters"]
+- !private ["SQ", "print"]
+- !private ["SQ", "processFetchedCharachterDetail"]
+- ["SQ", "refreshCharachterList"]
+- !private ["SQ", "row"]
+- ["SQ", "shared"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unavailable"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["10Assessment19ResponsListConstantV13ErrorMessagesV", "NoDataToShow"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["SH", "Dynamic"]
+- !private ["SH", "JSONDecoder"]
+- !private ["SH", "MarvelRequestsEndPoint"]
+- !private ["SH", "Reachability"]
+- !private ["SH", "ResponsListConstant"]
+- !private ["SH", "ResponseJson"]
+- ["SH", "UIApplication"]
+- ["SH", "URLSessionAPIService"]
+- ["SH", ""]
+- !private ["SH", "apiService"]
+- !private ["SH", "charachterList"]
+- !private ["SH", "charachterListApiLimit"]
+- !private ["SH", "charachterListApiOffset"]
+- ["SH", "charachterListApiTotal"]
+- !private ["SH", "charachterListDataSource"]
+- ["SH", "coreDataStack"]
+- !private ["SH", "count"]
+- !private ["SH", "debugPrint"]
+- ["SH", "delegate"]
+- ["SH", "errorCharachter"]
+- ["SH", "fetchCharachterList"]
+- ["SH", "fetchMoreCharachters"]
+- ["SH", "getSelectedCharachterViewModel"]
+- !private ["SH", "init"]
+- ["SH", "isCharachterDataLoading"]
+- ["SH", "isOffline"]
+- ["SH", "noOfCharachters"]
+- !private ["SH", "print"]
+- !private ["SH", "processFetchedCharachterDetail"]
+- ["SH", "refreshCharachterList"]
+- !private ["SH", "row"]
+- ["SH", "shared"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unavailable"]
+- !private ["10Foundation9IndexPathV", "row"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Assessment22MarvelRequestsEndPointO", "charachterList"]
+- !private ["10Assessment22MarvelRequestsEndPointO", "deinit"]
+- !private ["SM", "count"]
+- !private ["SM", "row"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So8NSObjectC", "AppDelegate"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CharachterDBModel"]
+- ["So8NSObjectC", "CharachterViewModel"]
+- ["So8NSObjectC", "DBHandler"]
+- ["So8NSObjectC", "Dynamic"]
+- ["So8NSObjectC", "IndexPath"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "JSONDecoder"]
+- !private ["So8NSObjectC", "MarvelRequestsEndPoint"]
+- !private ["So8NSObjectC", "Reachability"]
+- !private ["So8NSObjectC", "ResponsListConstant"]
+- ["So8NSObjectC", "ResponseJson"]
+- ["So8NSObjectC", "ResultCharachter"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIApplication"]
+- ["So8NSObjectC", "URLSessionAPIService"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "apiService"]
+- ["So8NSObjectC", "appDelegate"]
+- ["So8NSObjectC", "charachterList"]
+- ["So8NSObjectC", "charachterListApiLimit"]
+- ["So8NSObjectC", "charachterListApiOffset"]
+- ["So8NSObjectC", "charachterListApiTotal"]
+- ["So8NSObjectC", "charachterListDataSource"]
+- ["So8NSObjectC", "charachterListDataSourceView"]
+- ["So8NSObjectC", "coreDataStack"]
+- !private ["So8NSObjectC", "debugPrint"]
+- ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "errorCharachter"]
+- ["So8NSObjectC", "fetchCharachterList"]
+- ["So8NSObjectC", "fetchMoreCharachters"]
+- ["So8NSObjectC", "getSelectedCharachterViewModel"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isCharachterDataLoading"]
+- ["So8NSObjectC", "isOffline"]
+- ["So8NSObjectC", "noOfCharachters"]
+- !private ["So8NSObjectC", "print"]
+- ["So8NSObjectC", "processFetchedCharachterDetail"]
+- ["So8NSObjectC", "refreshCharachterList"]
+- ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "Dynamic"]
+- !private ["So8NSObjectP", "JSONDecoder"]
+- !private ["So8NSObjectP", "MarvelRequestsEndPoint"]
+- !private ["So8NSObjectP", "Reachability"]
+- !private ["So8NSObjectP", "ResponsListConstant"]
+- !private ["So8NSObjectP", "ResponseJson"]
+- ["So8NSObjectP", "UIApplication"]
+- ["So8NSObjectP", "URLSessionAPIService"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "apiService"]
+- !private ["So8NSObjectP", "charachterList"]
+- !private ["So8NSObjectP", "charachterListApiLimit"]
+- !private ["So8NSObjectP", "charachterListApiOffset"]
+- ["So8NSObjectP", "charachterListApiTotal"]
+- !private ["So8NSObjectP", "charachterListDataSource"]
+- ["So8NSObjectP", "coreDataStack"]
+- !private ["So8NSObjectP", "debugPrint"]
+- ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "errorCharachter"]
+- ["So8NSObjectP", "fetchCharachterList"]
+- ["So8NSObjectP", "fetchMoreCharachters"]
+- ["So8NSObjectP", "getSelectedCharachterViewModel"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "isCharachterDataLoading"]
+- ["So8NSObjectP", "isOffline"]
+- ["So8NSObjectP", "noOfCharachters"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "processFetchedCharachterDetail"]
+- ["So8NSObjectP", "refreshCharachterList"]
+- ["So8NSObjectP", "shared"]
+- !private ["Sk", "count"]
+- !private ["Sk", "row"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "subscript"]
+- !private ["12ReachabilityAAC", "connection"]
+- !private ["12ReachabilityAAC", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
+- !private ["10Assessment15RequestEndPointP", "charachterList"]
+- !private ["10Assessment19ResponsListConstantV", "ErrorMessages"]
+- !private ["10Assessment12ResponseJsonC", "data"]
+- !private ["10Assessment12ResponseJsonC", "deinit"]
+- ["10Assessment16ResultCharachterC", "deinit"]
+- !private ["ST", "count"]
+- !private ["ST", "row"]
+- !private ["ST", "subscript"]
+- !private ["7Combine15TopLevelDecoderP", "decode"]
+- !private ["7Combine15TopLevelDecoderP", "init"]
+- ["So13UIApplicationC", "delegate"]
+- ["So13UIApplicationC", "shared"]
+- ["So30UIPasteConfigurationSupportingP", "delegate"]
+- ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "shared"]
+- ["So30UIResponderStandardEditActionsP", "delegate"]
+- ["So30UIResponderStandardEditActionsP", "shared"]
+- ["So23UIUserActivityRestoringP", "delegate"]
+- ["So23UIUserActivityRestoringP", "shared"]
+- !private ["10Assessment20URLSessionAPIServiceC", "deinit"]
+- !private ["10Assessment20URLSessionAPIServiceC", "dispatch"]
+- ["10Assessment20URLSessionAPIServiceC", "init"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Dynamic"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONDecoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MarvelRequestsEndPoint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Reachability"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ResponsListConstant"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ResponseJson"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionAPIService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "apiService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "charachterList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "charachterListApiLimit"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "charachterListApiOffset"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "charachterListApiTotal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "charachterListDataSource"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "coreDataStack"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "errorCharachter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "fetchCharachterList"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "fetchMoreCharachters"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "getSelectedCharachterViewModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isCharachterDataLoading"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isOffline"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "noOfCharachters"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "processFetchedCharachterDetail"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "refreshCharachterList"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Dynamic"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONDecoder"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MarvelRequestsEndPoint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Reachability"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ResponsListConstant"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ResponseJson"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIApplication"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLSessionAPIService"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "apiService"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "charachterList"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "charachterListApiLimit"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "charachterListApiOffset"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "charachterListApiTotal"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "charachterListDataSource"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "coreDataStack"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "debugPrint"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "errorCharachter"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetchCharachterList"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fetchMoreCharachters"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getSelectedCharachterViewModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isCharachterDataLoading"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isOffline"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "noOfCharachters"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "processFetchedCharachterDetail"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "refreshCharachterList"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "10Assessment10APIServiceP"
+- !private "Sa"
+- !private "SK"
+- "s7CVarArgP"
+- "10Assessment23CharachterListViewModelP"
+- "10Assessment30CharachterListViewModelDetailsC"
+- !private "Sl"
+- !private "SL"
+- !private "12ReachabilityAAC10ConnectionO"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Assessment9DBHandlerP"
+- !private "10Assessment9DataClassC"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "10Assessment7DynamicC"
+- !private "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "10Assessment19ResponsListConstantV13ErrorMessagesV"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "10Foundation9IndexPathV"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Assessment22MarvelRequestsEndPointO"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sk"
+- !private "Sm"
+- !private "12ReachabilityAAC"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "10Assessment15RequestEndPointP"
+- !private "10Assessment19ResponsListConstantV"
+- !private "10Assessment12ResponseJsonC"
+- "10Assessment16ResultCharachterC"
+- !private "ST"
+- !private "7Combine15TopLevelDecoderP"
+- "So13UIApplicationC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So23UIUserActivityRestoringP"
+- "10Assessment20URLSessionAPIServiceC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/ObjectiveC.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreData.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreImage.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/QuartzCore.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Dispatch.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Metal.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Darwin.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Foundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreFoundation.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/CoreGraphics.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Swift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/UIKit.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Modules/Swinject.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Headers/Swinject-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/Swinject/Swinject.framework/Modules/module.modulemap"
+- "/Users/ali/Downloads/Xcode Project/Assessment/build/Build/Products/Debug-iphoneos/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3b45b9836d94c13fbcfa892f82a05609"
