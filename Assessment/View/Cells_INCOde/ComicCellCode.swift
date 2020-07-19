@@ -92,7 +92,7 @@ class ComicCellCode: UITableViewCell {
     imageCharachter.clipsToBounds = true
     imageCard.clipsToBounds = true
     descLabel.clipsToBounds = true
-
+//git
 
     container.clipsToBounds = true
     contentView.clipsToBounds = true
